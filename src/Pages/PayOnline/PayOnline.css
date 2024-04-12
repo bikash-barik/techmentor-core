@@ -1,0 +1,53 @@
+/*** Pay Online ***/
+.payonlinediv {
+    margin: 20px;
+    padding: 20px;
+}
+.payonlinerow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.payonlinecolumn1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.payonlinecolumn1 h5{
+    margin: 20px 0;
+}
+
+.payonlinecolumn1 span{
+    background-color: #eee;
+    padding: 2px 10px;
+    margin: 0 10px;
+    border: 1px solid black;
+    cursor: pointer;
+    color: black;
+}
+
+.payonlinecolumn1 button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.payonlinecolumn1 button:hover {
+    background-color: #0056b3;
+}
+
+.payonlineqrimg {
+    max-width: 100%;
+    height: 300px;
+    display: block;
+}

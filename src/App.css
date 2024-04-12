@@ -1,0 +1,45 @@
+:root {
+    --primary: #06BBCC;
+    --light: #F0FBFC;
+    --dark: #181d38;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+}
+
+.btn {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    transition: .5s;
+}
+
+.primarycolor{
+    color: var(--primary);
+}
+
+.btn.btn-primary,
+.btn.btn-secondary {
+    color: #FFFFFF;
+    background-color: var(--primary);
+    border: none;
+}
+
+.bgprimary{
+    background-color: var(--primary);
+}
+
+.text-primary{
+    color: var(--primary);
+}

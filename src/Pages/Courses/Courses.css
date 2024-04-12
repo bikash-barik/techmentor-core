@@ -1,0 +1,169 @@
+.coursestopdiv {
+    background: #f2f7fb;
+    padding: 32px 7vw 0;
+}
+
+.coursesdiv {
+    margin: 0px 85px;
+}
+
+.subcategories {
+    padding: 0 7vw;
+}
+
+.coursestopdiv p {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #3c4852;
+}
+
+.coursestopdiv ul {
+    padding-left: 0 !important;
+}
+
+.subcategories ul {
+    padding-left: 0 !important;
+}
+
+.coursestopdiv ul li {
+    border-radius: 4px 4px 0px 0px;
+    font-weight: 700;
+    display: flex;
+    margin: 10px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.subcategories ul li {
+    padding: 12px 15px;
+}
+
+.subcategories ul li:first-child {
+    margin-left: 0;
+}
+
+.coursestopdiv ul li a,
+.subcategories ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.subcategories ul li {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin: 0 10px;
+}
+
+.subcategories ul li:last-child {
+    border: none;
+    border-radius: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.subcategorywiewallbtn {
+    border: none;
+    background-color: var(--primary);
+    color: white !important;
+    padding: 8px 15px;
+    border-radius: 8px;
+}
+
+
+.coursestopdiv ul li a.active {
+    position: relative;
+    background: rgb(255, 255, 255);
+}
+
+
+.coursestopdiv ul li:first-child {
+    padding-left: 0;
+}
+
+.filteredcoursesdiv {
+    margin-bottom: 50px;
+}
+
+.filteredcoursesrow {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.filterCourseSection__container__card {
+    cursor: pointer;
+    position: relative;
+    width: calc(25% - 26px);
+    padding: 20px;
+    border-radius: 12px;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    /* max-width: 300px; */
+}
+
+.filterCourseSection__container__card__heading {
+    color: #fff;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 800;
+    width: 50%;
+}
+
+.filterCourseSection__container__card__footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.filterCourseSection__container__card__footer__right {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+@media screen and (max-width:768px) {
+    .coursesdiv {
+        margin: 5px;
+    }
+
+
+    .filteredcoursesrow {
+        gap: 10px;
+    }
+
+    .filterCourseSection__container__card {
+        width: 48%;
+        height: 25vh;
+    }
+
+    .coursestopdiv ul {
+        overflow: scroll;
+    }
+    
+    .subcategories ul {
+        overflow: scroll;
+    }
+
+    .subcategories ul li{
+        padding: 5px;
+        height: 100%;
+    }
+
+    .coursestopdiv ul li a, .subcategories ul li a {
+        display: flex;
+        width: 100%;
+    }
+
+    .coursestopdiv ul li a span, .subcategories ul li a span ,.subcategorywiewallbtn span{
+        margin-right: 5px;
+        display: flex;
+        align-items: center;
+    }
+}

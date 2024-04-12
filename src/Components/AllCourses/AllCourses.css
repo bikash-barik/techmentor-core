@@ -1,0 +1,26 @@
+.allcoursesdiv{
+    margin: 50px 0;
+}
+
+.allcoursesrow{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.courseslink{
+    width: 25%;
+}
+
+@media screen and (max-width:768px) {
+    .allcoursesdiv{
+        margin: 0;
+    }
+
+    .allcoursesrow{
+       row-gap: 20px;
+    }
+
+    .courseslink{
+        width: 100%;
+    }
+}

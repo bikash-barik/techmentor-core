@@ -1,0 +1,100 @@
+.header-carousel {
+    height: 100%;
+}
+
+.carousel-slider .slick-next {
+    position: absolute;
+    top: 50%;
+    right: 20%;
+    transform: translateY(-50%);
+    margin: 7px 0;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    background: transparent;
+    border: 1px solid #FFFFFF;
+    font-size: 22px;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.carousel-slider .slick-prev {
+    position: absolute;
+    top: 80%;
+    right: 50%;
+    transform: translateY(-50%);
+    margin: 7px 0;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    background: transparent;
+    border: 1px solid #FFFFFF;
+    font-size: 22px;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.carousel-slider .slick-next::after {
+    content: ">";
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+
+.carousel-slider .slick-prev::after {
+    content: "<-";
+}
+
+.carousel-slider .slick-arrow:hover {
+    background: var(--primary);
+    border-color: var(--primary);
+}
+
+.herosectionheading {
+    font-weight: 700;
+    font-size: 4rem;
+}
+
+.herosectioninnerdiv {
+    padding: 0  0  0 100px;
+}
+
+/*** Header carousel ***/
+@media (max-width: 768px) {
+    .herosectiondiv {
+        height: 65vh;
+    }
+
+    .carouselimg {
+        height: 65vh;
+    }
+
+
+    .herosectioninnerdiv {
+        padding: 0 20px;
+    }
+
+    .playstorefooterbtn1 {
+        width: 100%;
+    }
+
+    .headerimageul {
+        width: 80%;
+    }
+
+    .herosectionheading {
+        font-size: 2rem;
+    }
+
+    .carousel-slider .slick-next {
+        top: 65%;
+        right: 8%;
+    }
+
+}

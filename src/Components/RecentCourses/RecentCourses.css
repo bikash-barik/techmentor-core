@@ -1,0 +1,23 @@
+.recentcourse-item{
+    display: flex;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.recentcoursescontentdiv{
+    padding: 0 20px;
+    width: 50%;
+
+}
+
+@media screen and (max-width:768px) {
+    .recentcourse-item{
+        margin: 0 !important;
+        border-bottom: none;
+        border-radius:  8px 8px 0 0;
+    }
+    .recentcoursescontentdiv{
+        padding: 10px 0 10px 10px;
+        width: 65%;
+    }
+}
