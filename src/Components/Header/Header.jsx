@@ -52,6 +52,9 @@ export default function Header() {
             <li className='downloadbtnli'>
               <Link to="https://play.google.com/store/apps/details?id=co.brown.fjkic" className='downloadbtn'>Download App</Link>
             </li>
+            <li className='downloadbtnli'>
+              <Link to="https://web.techmentorcore.com/login" className='downloadbtn'>Join Now<i class="fa fa-arrow-right ms-3"></i></Link>
+            </li>
           </ul>
 
           <a href="https://web.techmentorcore.com/login" class="btn btn-primary py-3 px-lg-5 d-none d-lg-block" style={{height:"60px"}}>Join Now<i class="fa fa-arrow-right ms-3"></i></a>
