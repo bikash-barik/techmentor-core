@@ -53,7 +53,7 @@ export default function Header() {
               <Link to="https://play.google.com/store/apps/details?id=co.brown.fjkic" className='downloadbtn'>Download App</Link>
             </li>
             <li className='downloadbtnli'>
-              <Link to="https://web.techmentorcore.com/login" className='downloadbtn'>Join Now<i class="fa fa-arrow-right ms-3"></i></Link>
+              <Link to="https://web.techmentorcore.com/login" className='joinnowbtn'>Join Now<i class="fa fa-arrow-right ms-3"></i></Link>
             </li>
           </ul>
 
