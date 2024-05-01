@@ -47,10 +47,10 @@ export default function AllCourses({ course }) {
 
                 <div className="coursebtndiv">
                   <div className="coursepricediv">
-                    <h5>₹ {course.price}</h5>
+                    <h5>₹ {course.finalPrice}</h5>
                     <span className="span1">₹{course.discount} </span>{" "}
                     <span className="span2">
-                      {parseInt((course.discount * 100) / course.price)}.00% OFF{" "}
+                    {((course.discount / course.price) * 100).toFixed(2)}% OFF{" "}
                     </span>
                   </div>
                   <div className="coursebtn">
