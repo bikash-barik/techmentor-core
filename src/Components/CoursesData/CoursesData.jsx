@@ -41,7 +41,7 @@ export default function CoursesData() {
         throw new Error("Failed to fetch data");
       }
       const data = await response.json();
-      console.log("API Response:", data);
+      console.log("API Response for popular course home:", data);
       setCoursesData(data.data.coursesData);
     } catch (error) {
       console.error("Error calling the API:", error);
