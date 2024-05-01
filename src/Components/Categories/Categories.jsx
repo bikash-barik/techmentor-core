@@ -19,7 +19,7 @@ export default function Categories() {
                             <a className="position-relative d-block overflow-hidden" href="/">
                                 <img className="img-fluid" src={cat1} alt="/"/>
                                 <div className="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3"style={{margin: "1px"}}>
-                                    <h5 className="m-0" style={{color:"black"}}>Web Design</h5>
+                                    <h5 className="m-0" style={{color:"black"}}>Full stack Development</h5>
                                     <small className="primarycolor">49 Courses</small>
                                 </div>
                             </a>
@@ -28,7 +28,7 @@ export default function Categories() {
                             <a className="position-relative d-block overflow-hidden" href="/">
                                 <img className="img-fluid" src={cat2} alt=""/>
                                 <div className="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3" style={{margin: "1px"}}>
-                                    <h5 className="m-0" style={{color:"black"}}>Graphic Design</h5>
+                                    <h5 className="m-0" style={{color:"black"}}>PGDCA</h5>
                                     <small className="primarycolor">49 Courses</small>
                                 </div>
                             </a>
@@ -37,7 +37,7 @@ export default function Categories() {
                             <a className="position-relative d-block overflow-hidden" href="/">
                                 <img className="img-fluid" src={cat3} alt=""/>
                                 <div className="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3" style={{margin: "1px"}}>
-                                    <h5 className="m-0"  style={{color:"black"}}>Video Editing</h5>
+                                    <h5 className="m-0"  style={{color:"black"}}>MERN Stack</h5>
                                     <small className="primarycolor">49 Courses</small>
                                 </div>
                             </a>
@@ -48,7 +48,7 @@ export default function Categories() {
                     <a className="position-relative d-block h-100 overflow-hidden" href="/">
                         <img className="img-fluid position-absolute w-100 h-100" src={cat4} alt="" style={{objectfit : "cover"}}/>
                         <div className="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3" style={{margin: "1px"}}>
-                            <h5 className="m-0" style={{color:"black"}}>Online Marketing</h5>
+                            <h5 className="m-0" style={{color:"black"}}>Digital Marketing</h5>
                             <small className="primarycolor">49 Courses</small>
                         </div>
                     </a>
