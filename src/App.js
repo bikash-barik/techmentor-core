@@ -11,6 +11,8 @@ import PayOnline from './Pages/PayOnline/PayOnline';
 import Contact from './Pages/Contact/Contact';
 import About from './Pages/About/About';
 import Courses from './Pages/Courses/Courses';
+import MobileViewHeader from './Components/MobileViewHeader/MobileViewHeader';
+import FloatingButton from './Components/FloatingButton/FloatingButton';
 
 function App() {
   useEffect(() => {
@@ -29,6 +31,8 @@ function App() {
           <Route path='/contact' element={<Contact/>}/>
         </Routes>
         <Footer/>
+        <FloatingButton/>
+        <MobileViewHeader/>
       </Router>
     </div>
   );
