@@ -21,8 +21,8 @@
     background-color: white;
     border: 1px solid rgba(0, 0, 0, 0.2);
     box-shadow: 0 0 5px rgba(15, 15, 15, 0.36);
-    width: 200px;
-    height: 160px;
+    width: 300px;
+    height: 165px;
     padding: 10px 20px;
     display: flex;
     flex-direction: column;
@@ -71,8 +71,9 @@
 
     .contactMenu{
         width: 93vw;
-        height: 18vh;
+        height: 20vh;
         right: 0rem;
         bottom: 4rem;
+        padding: 20px;
     }
 }

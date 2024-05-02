@@ -40,7 +40,7 @@ export default function FloatingButton() {
               <div className="callMenulinkdiv">
                 <a href="https://wa.me/919348845556">
                   <MdMessage className="callMenuIcon" />
-                  <p>Whats App</p>
+                  <p>Whats App : 7978699120</p>
                 </a>
               </div>
             </div>
@@ -49,7 +49,7 @@ export default function FloatingButton() {
               <div className="callMenulinkdiv">
                 <a href="/">
                   <MdAddCall className="callMenuIcon" />
-                  <p>Call Us</p>
+                  <p>Call Us : +91 70084 28565</p>
                 </a>
               </div>
             </div>
@@ -58,7 +58,7 @@ export default function FloatingButton() {
               <div className="callMenulinkdiv">
                 <a href="/">
                   <AiFillMessage className="callMenuIcon" />
-                  <p>Send SMS</p>
+                  <p>Send SMS : 7978699120</p>
                 </a>
               </div>
             </div>
