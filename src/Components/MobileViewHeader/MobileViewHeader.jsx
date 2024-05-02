@@ -14,27 +14,27 @@ export default function MobileViewHeader() {
       <div className="mobileviewheaderrow">
 
             <div className="newheaaderrow1column1">
-              <Link to="/" style={{color:"black",display:"inline"}}> <FaHome style={{height:"30px",width:"100%",color:"black"}}/></Link>
+              <Link to="/" style={{color:"black",display:"inline"}}> <FaHome style={{height:"30px",width:"100%",color:"white"}}/></Link>
              <p>Home</p>
             </div>
 
             <div className="newheaaderrow1column1">
-            <Link to="/courses" style={{color:"black",display:"inline"}}> <FaDiscourse style={{height:"30px",width:"100%",color:"black"}}/></Link>
+            <Link to="/courses" style={{color:"black",display:"inline"}}> <FaDiscourse style={{height:"30px",width:"100%",color:"white"}}/></Link>
             <p>Courses</p>
             </div>
 
             <div className="newheaaderrow1column1">
-            <Link to="https://play.google.com/store/apps/details?id=co.brown.fjkic" style={{color:"black",display:"inline"}}> <IoLogoGooglePlaystore style={{height:"30px",width:"100%",color:"black"}}/></Link>
+            <Link to="https://play.google.com/store/apps/details?id=co.brown.fjkic" style={{color:"black",display:"inline"}}> <IoLogoGooglePlaystore style={{height:"30px",width:"100%",color:"white"}}/></Link>
             <p>Download</p>
             </div>
 
             <div className="newheaaderrow1column1">
-            <Link to="/contact" style={{color:"black",display:"inline"}}> <MdPermContactCalendar style={{height:"30px",width:"100%",color:"black"}}/></Link>
+            <Link to="/contact" style={{color:"black",display:"inline"}}> <MdPermContactCalendar style={{height:"30px",width:"100%",color:"white"}}/></Link>
             <p>Contact</p>
             </div>
 
             <div className="newheaaderrow1column1">
-            <Link style={{color:"white"}} to="https://web.techmentorcore.com/login"><MdOutlineAccountCircle style={{height:"30px",width:"100%",color:"black"}}/></Link>
+            <Link style={{color:"white"}} to="https://web.techmentorcore.com/login"><MdOutlineAccountCircle style={{height:"30px",width:"100%",color:"white"}}/></Link>
             <p>Login</p>
             </div>
       </div>
