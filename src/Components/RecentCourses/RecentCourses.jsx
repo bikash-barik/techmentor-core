@@ -68,10 +68,10 @@ export default function RecentCourses({ course }) {
 
                 <div className="coursebtndiv">
                   <div className="coursepricediv">
-                    <h5>₹ {course.price}</h5>
-                    <span className="span1">₹{course.discount} </span>{" "}
+                    <h5>₹ {course.finalPrice}</h5>
+                    <span className="span1">₹{course.price} </span>{" "}
                     <span className="span2">
-                    {((course.discount / course.finalPrice) * 100).toFixed(2)}% OFF{" "}
+                    {((course.discount / course.price) * 100).toFixed(2)}% OFF{" "}
                     </span>
                   </div>
                   <div className="coursebtn">

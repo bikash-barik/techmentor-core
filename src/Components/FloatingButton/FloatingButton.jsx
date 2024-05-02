@@ -38,27 +38,27 @@ export default function FloatingButton() {
           <div className="contactMenu" ref={contactRef}>
             <div className="callMenu">
               <div className="callMenulinkdiv">
-                <a href="https://wa.me/919348845556">
+                <a href="https://wa.me/917978699120">
                   <MdMessage className="callMenuIcon" />
-                  <p>Whats App : 7978699120</p>
+                  <p>Whats App</p>
                 </a>
               </div>
             </div>
 
             <div className="callMenu">
               <div className="callMenulinkdiv">
-                <a href="/">
+                <a href="tel:+917008428565">
                   <MdAddCall className="callMenuIcon" />
-                  <p>Call Us : +91 70084 28565</p>
+                  <p>Call Us</p>
                 </a>
               </div>
             </div>
 
             <div className="callMenu">
               <div className="callMenulinkdiv">
-                <a href="/">
+                <a href="sms:7978699120">
                   <AiFillMessage className="callMenuIcon" />
-                  <p>Send SMS : 7978699120</p>
+                  <p>Send SMS</p>
                 </a>
               </div>
             </div>
