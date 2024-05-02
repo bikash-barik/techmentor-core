@@ -33,9 +33,14 @@
 .callMenu {
     border-bottom: 1px solid rgba(0, 0, 0, 0.3);
     padding-bottom: 8px;
-}
-.callMenu a{
     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.callMenulinkdiv a{
+    display: flex;
+    gap: 10px;
     width: 100%;
     text-decoration: none;
     color: black;
@@ -43,7 +48,7 @@
 
 .callMenuIcon{
     height: 30px;
-    width: 30%;
+    width: 30px;
     color: var(--primary);
     display: flex;
     justify-content: flex-end;
@@ -51,7 +56,6 @@
 }
 
 .callMenu p{
-    width: 70%;
     font-weight: 600;
     margin-bottom: 0;
     display: flex;
@@ -63,5 +67,12 @@
     .maindivstickytop {
         bottom: 6rem;
         right: 1rem;
+    }
+
+    .contactMenu{
+        width: 93vw;
+        height: 18vh;
+        right: 0rem;
+        bottom: 4rem;
     }
 }

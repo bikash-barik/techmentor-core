@@ -22,7 +22,6 @@ export default function FloatingButton() {
     };
   }, []);
 
-
   const contactMenu = (event) => {
     event.stopPropagation();
     setIsContactOpen(!isContactOpen);
@@ -38,28 +37,30 @@ export default function FloatingButton() {
         {isContactOpen && (
           <div className="contactMenu" ref={contactRef}>
             <div className="callMenu">
-              <a href="https://wa.me/919348845556">
-                <MdMessage className="callMenuIcon"/>
-                <p>Whats App</p>
-              </a>
-           
+              <div className="callMenulinkdiv">
+                <a href="https://wa.me/919348845556">
+                  <MdMessage className="callMenuIcon" />
+                  <p>Whats App</p>
+                </a>
+              </div>
             </div>
 
             <div className="callMenu">
-              <a href="/">
-              <MdAddCall className="callMenuIcon"/>
-              <p>Call Us</p>
-              </a>
-              
-
+              <div className="callMenulinkdiv">
+                <a href="/">
+                  <MdAddCall className="callMenuIcon" />
+                  <p>Call Us</p>
+                </a>
+              </div>
             </div>
 
             <div className="callMenu">
-              <a href="/"> 
-              <AiFillMessage className="callMenuIcon"/>
-              <p>Send SMS</p>
-              </a>
-              
+              <div className="callMenulinkdiv">
+                <a href="/">
+                  <AiFillMessage className="callMenuIcon" />
+                  <p>Send SMS</p>
+                </a>
+              </div>
             </div>
           </div>
         )}
