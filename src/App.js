@@ -13,6 +13,7 @@ import About from './Pages/About/About';
 import Courses from './Pages/Courses/Courses';
 import MobileViewHeader from './Components/MobileViewHeader/MobileViewHeader';
 import FloatingButton from './Components/FloatingButton/FloatingButton';
+import TermsAndConditions from './Pages/TermsAndConditions/TermsAndConditions';
 
 function App() {
   useEffect(() => {
@@ -29,6 +30,7 @@ function App() {
           <Route path='/courses' element={<Courses/>}/>
           <Route path='/payonline' element={<PayOnline/>}/>
           <Route path='/contact' element={<Contact/>}/>
+          <Route path='/terms-and-conditions' element={<TermsAndConditions/>}/>
         </Routes>
         <Footer/>
         <FloatingButton/>

@@ -4,7 +4,7 @@ import './Service.css';
 export default function Service() {
   return (
     <>
-        <div className="container-xxl py-5">
+     <div className="container-xxl py-5">
         <div className="container">
             <div className="row g-4">
                 <div className="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-delay="100">

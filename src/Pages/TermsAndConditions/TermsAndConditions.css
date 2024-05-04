@@ -1,0 +1,51 @@
+.termsdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.page {
+    padding: 50px 80px;
+    margin: 50px;
+    background: white;
+    box-shadow: 2px 2px 5px  2px  rgba(0,0,0,0.6);
+    max-width: 1200px;
+    min-width: 500px;
+  }
+  
+  #terms-and-conditions {
+    font-size: 14px;
+  
+    h1 {
+      font-size: 34px;
+    }
+    
+    ol {
+      counter-reset: item;
+    }
+  
+    li {
+      display: block;
+      /* margin: 20px 0; */
+      position: relative;
+    }
+    
+    ol li:before {
+      position: absolute;
+      top: -10px;
+      margin: auto 0;
+      margin-left: -15px;
+      color: black;
+      content: "•";
+      font-weight: 800;
+      font-size: 1.5rem;
+      display: flex;
+      align-items: center;
+      margin-top: 0 !important;
+      margin-bottom: 10px !important;
+    }
+
+    ul{
+      display: flex;
+      flex-direction: column;
+    }
+  }

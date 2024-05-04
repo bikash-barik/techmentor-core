@@ -1,4 +1,4 @@
-import React from 'react'
+import { Link } from 'react-router-dom';
 import './Footer.css';
 import playstore from '../../Assets/Images/playstore (2).png';
 import appstore from '../../Assets/Images/appstore.png';
@@ -14,11 +14,11 @@ export default function Footer() {
             <div className="row g-5">
                 <div className="col-lg-3 col-md-6">
                     <h4 className="text-white mb-3">Quick Link</h4>
-                    <a className="btn btn-link" href="/">About Us</a>
-                    <a className="btn btn-link" href="/">Contact Us</a>
-                    <a className="btn btn-link" href="/">Privacy Policy</a>
-                    <a className="btn btn-link" href="/">Terms & Condition</a>
-                    <a className="btn btn-link" href="/">FAQs & Help</a>
+                    <Link className="btn btn-link" to="/about">About Us</Link>
+                    <Link className="btn btn-link" to="/contact">Contact Us</Link>
+                    <Link className="btn btn-link" to="/">Privacy Policy</Link>
+                    <Link className="btn btn-link" to="/terms-and-conditions">Terms & Condition</Link>
+                    <Link className="btn btn-link" to="/">FAQs & Help</Link>
                 </div>
                 <div className="col-lg-3 col-md-6">
                     <h4 className="text-white mb-3">Contact</h4>
@@ -90,7 +90,7 @@ export default function Footer() {
                     </div>
                     <div className="col-md-6 text-center text-md-end">
                         <div className="footer-menu">
-                            <a href="/">Home</a>
+                            <Link to="/">Home</Link>
                             <a href="/">Cookies</a>
                             <a href="/">Help</a>
                             <a href="/">FQAs</a>
