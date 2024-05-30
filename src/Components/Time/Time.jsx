@@ -5,7 +5,7 @@ export default function Time() {
     <>
       <section className="timesection" id="brochure-page3">
         <div className="timediv">
-          <h1>Why you should invest your time?</h1>
+          <h1>Why you should invest <br /> your time?</h1>
         </div>
 
         <div className="quotediv">
@@ -15,7 +15,7 @@ export default function Time() {
           </p>
 
           <div className="quotebtndiv">
-            <button className="quotebtn">- Cnris Brauer</button>
+            <button className="quotebtn">- Chris Brauer</button>
           </div>
         </div>
 

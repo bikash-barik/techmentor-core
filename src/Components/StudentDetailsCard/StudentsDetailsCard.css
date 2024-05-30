@@ -1,0 +1,52 @@
+.studentcarddiv{
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 20px 0;
+    /* border: 2px solid rgba(100, 100, 111, 0.2); */
+    width: 32%;
+}
+.studentcardtop{
+    text-align: center;
+    background-color: var(--primary);
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0 20px;
+}
+
+.studentcardtop p{
+    margin-bottom: 0;
+}
+
+.studentdetail{
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    margin: 20px;
+    margin-bottom: 0;
+}
+
+.studentimgdiv img{
+    height: 80px;
+    width: 100%;
+}
+
+.studentinfodiv p{
+    margin-bottom: 0;
+}
+
+.studentinfodiv img{
+    height: 50px;
+    width: 75%;
+}
+
+.studentdetailbottomparadiv{
+    margin: 20px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.studentdetailbottomparadiv p{
+    margin-bottom: 0;
+}
+

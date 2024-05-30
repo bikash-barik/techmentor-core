@@ -3,7 +3,7 @@ import inst3 from '../../Assets/Images/Digvijay.png';
 export default function TeamCard() {
   return (
     <>
-      <div className="col-lg-3 col-md-6 teamcard" data-aos="fade-up" data-aos-delay="500">
+      <div className="col-lg-3 col-md-6 teamcard">
             <div className="team-item bg-light">
                 <div className="overflow-hidden">
                     <img className="img-fluid teamimage" src={inst3} alt=""/>

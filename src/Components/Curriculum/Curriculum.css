@@ -1,0 +1,36 @@
+.curriculumsection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.curriculumdiv{
+    width: 70%;
+}
+
+.curriculumdiv h1{
+    color: var(--primary);
+    font-weight: 700;
+    font-size: 4rem;
+    letter-spacing: 1.5;
+    text-align: center;
+}
+
+.curriculumdiv h3{
+    margin-top: 30px;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.curriculumdesc{
+    background: #eee;
+    border-radius: 10px;
+    width: 70%;
+    padding: 10px 10px 10px 30px;
+    margin-top: 30px;
+}
+
+.curriculumdesc p{
+    margin-bottom: 0;
+}

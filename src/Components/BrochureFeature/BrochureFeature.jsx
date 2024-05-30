@@ -1,10 +1,19 @@
 import "./BrochureFeature.css";
 import broimg from "../../Assets/Images/about.jpg";
+import FeatureCard from "../FeatureCard/FeatureCard";
 export default function BrochureFeature() {
   return (
     <section className="brouchersection" id="brochure-page5">
       <div className="text-center">
-      <h1 className="section-title brochure-section-title bg-white text-center primarycolor px-3 mb-5">Features</h1>
+         <h1 className="section-title brochure-section-title bg-white text-center primarycolor px-3 mb-5">Features</h1>
+      </div>
+
+      <div className="row featuresrow">
+        <FeatureCard/>
+        <FeatureCard/>
+        <FeatureCard/>
+        <FeatureCard/>
+        <FeatureCard/>
       </div>
 
       <div className="portal">

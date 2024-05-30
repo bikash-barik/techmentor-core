@@ -1,0 +1,23 @@
+.featuredcarddiv{
+    padding: 10px;
+}
+
+.featuredcardinnerdiv{
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.featuredcardinnerdiv img{
+    height: 100px;
+}
+
+.featuredcardinnerdiv p{
+    margin-bottom: 0;
+    text-align: center;
+    margin-top: 10px;
+}

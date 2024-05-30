@@ -1,0 +1,28 @@
+.eligiblesection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.eligiblediv{
+    width: 70%;
+}
+
+.eligiblediv h1{
+    color: var(--primary);
+    font-weight: 700;
+    font-size: 3.5rem;
+    text-align: center;
+}
+
+.eligiblediv h3{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.eligiblediv p{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 1.3rem;
+}
+

@@ -10,7 +10,7 @@ import image1 from '../../Assets/Images/1.png';
 import image2 from '../../Assets/Images/2.png';
 import image3 from '../../Assets/Images/2.png';
 import image4 from '../../Assets/Images/4.png';
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 export default function Courses() {
 
   const [coursesData, setCoursesData] = useState([]);
@@ -88,7 +88,7 @@ export default function Courses() {
           />
         </div>
         <div className="filterCourseSection__container__card__footer__right">
-          <img src="https://ali-cdn-cp-assets-public.classplus.co/tutor-website/icon_live_courses.svg" height="90" width="90"/>
+          <img src="https://ali-cdn-cp-assets-public.classplus.co/tutor-website/icon_live_courses.svg" height="90" width="90" alt="courseimg"/>
         </div>
       </div>
     </div>
@@ -108,7 +108,7 @@ export default function Courses() {
           />
         </div>
         <div className="filterCourseSection__container__card__footer__right">
-          <img src="https://ali-cdn-cp-assets-public.classplus.co/tutor-website/icon_notes_books.svg" height="90" width="90" />
+          <img src="https://ali-cdn-cp-assets-public.classplus.co/tutor-website/icon_notes_books.svg" height="90" width="90" alt="courseimg"/>
         </div>
       </div>
     </div>
@@ -129,7 +129,7 @@ export default function Courses() {
           />
         </div>
         <div className="filterCourseSection__container__card__footer__right">
-          <img src="https://ali-cdn-cp-assets-public.classplus.co/tutor-website/icon_recorded_courses.svg" height="90" width="90" />
+          <img src="https://ali-cdn-cp-assets-public.classplus.co/tutor-website/icon_recorded_courses.svg" height="90" width="90" alt="courseimg"/>
         </div>
       </div>
     </div>
