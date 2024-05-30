@@ -1,0 +1,50 @@
+.teamsection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0 ;
+    padding: 100px 0;
+}
+
+.teamdiv{
+    width: 70%;
+}
+
+.teamdiv h1{
+    text-align: center;
+}
+
+.teamdiv p{
+    text-align: center;
+}
+
+.teamheading{
+    color: var(--primary);
+    font-weight: 700;
+    font-size: 4rem;
+}
+
+.teamdiv p{
+    line-height: 1.7;
+    font-size: 1.5rem;
+    margin-top: 50px;
+}
+
+.teamcard:nth-child(2){
+    margin-top: 100px;
+}
+
+.teamcard:nth-child(4){
+    margin-top: 100px;
+}
+
+.teamimage{
+    height: 250px;
+    width: 100%;
+    border-radius: 10px 10px 0 0 ;
+}
+
+.teamrow{
+    margin: 50px 0;
+}

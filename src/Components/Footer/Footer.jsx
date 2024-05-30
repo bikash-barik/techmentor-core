@@ -6,7 +6,47 @@ import course1 from '../../Assets/Images/course-1.jpg';
 import course2 from '../../Assets/Images/course-2.jpg';
 import course3 from '../../Assets/Images/course-3.jpg';
 
+import jsPDF from 'jspdf';
+import html2canvas from 'html2canvas';
+import { useNavigate } from 'react-router-dom';
+
 export default function Footer() {
+    const navigate = useNavigate();
+
+    const handleDownloadPdf = async () => {
+        navigate('/brochure');
+    
+        // Wait for the route to render
+        setTimeout(async () => {
+          const elementIds = ['brochure-page1','brochure-page2','brochure-page3','brochure-page4','brochure-page5','brochure-page6'];
+          const pdf = new jsPDF('p', 'pt', 'a5');
+          const pdfWidth = pdf.internal.pageSize.getWidth();
+          const pdfHeight = pdf.internal.pageSize.getHeight();
+          const margin = 10;
+    
+          const getDataUrl = async (element) => {
+            const canvas = await html2canvas(element, { scale: 2 });
+            return canvas.toDataURL('image/png');
+          };
+    
+          for (const id of elementIds) {
+            const element = document.getElementById(id);
+            const dataUrl = await getDataUrl(element);
+            const imgProps = pdf.getImageProperties(dataUrl);
+            const imgWidth = pdfWidth - margin * 2;
+            const imgHeight = (imgProps.height * imgWidth) / imgProps.width;
+    
+            pdf.addImage(dataUrl, 'PNG', margin, margin, imgWidth, imgHeight);
+            pdf.addPage();
+          }
+    
+          pdf.deletePage(pdf.internal.getNumberOfPages()); // Remove the last empty page
+          pdf.save('brochure.pdf');
+    
+          navigate("/");
+        }, 1000); // Adjust the timeout duration if necessary
+      };
+      
   return (
     <>
     <div className="container-fluid bg-dark text-light footer pt-5 mt-5">
@@ -73,6 +113,10 @@ export default function Footer() {
                                 <a href="https://apps.apple.com/in/app/classNameplus/id1324522260" ><img className="playstorefooterbtn" src={appstore} alt=""/></a>
                             </li>
                         </ul> 
+                    </div>
+
+                    <div className=" mx-auto my-auto d-flex justify-content-center"  style={{maxWidth: "400px"}}>
+                       <button className='brochurebtn' onClick={handleDownloadPdf}>Download Brochure</button>
                     </div>
                     
                 </div>

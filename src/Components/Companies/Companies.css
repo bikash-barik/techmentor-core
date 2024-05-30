@@ -1,0 +1,15 @@
+.companies{
+    padding: 50px 0;
+}
+
+.companiesimages {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.companies img {
+    height: 60px;
+    width: 20%;
+    margin: 0 20px;
+}

@@ -14,6 +14,7 @@ import Courses from './Pages/Courses/Courses';
 import MobileViewHeader from './Components/MobileViewHeader/MobileViewHeader';
 import FloatingButton from './Components/FloatingButton/FloatingButton';
 import TermsAndConditions from './Pages/TermsAndConditions/TermsAndConditions';
+import Brochure from './Pages/Brochure/Brochure';
 
 function App() {
   useEffect(() => {
@@ -27,6 +28,7 @@ function App() {
         <Routes>
           <Route path='/' element={<Home/>}/>
           <Route path='/about' element={<About/>}/>
+          <Route path='/brochure' element={<Brochure/>}/>
           <Route path='/courses' element={<Courses/>}/>
           <Route path='/payonline' element={<PayOnline/>}/>
           <Route path='/contact' element={<Contact/>}/>

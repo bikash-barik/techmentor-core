@@ -1,0 +1,52 @@
+.brouchersection {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.portal {
+    display: flex;
+    justify-content: center;
+}
+
+.portalrow{
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 40px;
+    width: 85%;
+    background: rgb(255, 255, 255);
+    border-radius: 8px;
+}
+.portal-left {
+    width: 50%;
+    padding: 30px;
+}
+
+.portalheading1{
+    color: rgb(248, 131, 66);
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.portalheading2{
+    font-weight: 700;
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 10px;
+}
+
+.portalheading3{
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: rgb(0, 0, 0, 0.4);
+}
+
+.portal-right {
+    width: 50%;
+    padding: 30px;
+}
+
+.portal-right img {
+    height: 250px;
+    width: 100%;
+}

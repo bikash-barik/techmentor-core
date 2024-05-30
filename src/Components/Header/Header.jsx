@@ -35,8 +35,10 @@ export default function Header() {
             </li>
             <li>
               <NavLink to="/about" onClick={handleShowNavbar}>About</NavLink>
-              
             </li>
+            {/* <li>
+              <NavLink to="/brochure" onClick={handleShowNavbar}>Brochure</NavLink>
+            </li> */}
             <li>
               <NavLink to="https://courses.techmentorcore.com/freetest" onClick={handleShowNavbar}>Free Tests</NavLink>
             </li>

@@ -1,5 +1,3 @@
-import React from 'react'
-import './Contact.css';
 import Top from '../../Components/Top/Top';
 
 export default function Contact() {
