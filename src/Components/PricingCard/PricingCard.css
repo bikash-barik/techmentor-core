@@ -76,3 +76,17 @@
         opacity: 1;
     }
 }
+
+@media screen and (max-width:600px) {
+    .pricing .card-price {
+        font-size: 0.8rem;
+    }
+
+    .pricing ul li p{
+        font-size: 0.8rem;
+    }
+
+    .pricing .card-price1 {
+        font-size: 1rem;
+    }
+}

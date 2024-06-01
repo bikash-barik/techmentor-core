@@ -1,4 +1,3 @@
-import TeamCard from "../TeamCard/TeamCard";
 import "./Team.css";
 
 export default function Team() {
@@ -25,12 +24,6 @@ export default function Team() {
           </p>
         </div>
 
-        <div className="row g-4 mt-4 teamrow">
-          <TeamCard/>
-          <TeamCard/>            
-          <TeamCard/>    
-          <TeamCard/>    
-        </div>
       </section>
     </>
   );

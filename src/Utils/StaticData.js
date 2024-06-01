@@ -3,9 +3,29 @@ import doubtsolving from "../Assets/Images/doubt-solving.png";
 import expertguidance from "../Assets/Images/expert-guidance.png";
 import projects from "../Assets/Images/50+projects.png";
 import access from "../Assets/Images/lifetimecontentaccess.png";
+import weeklycontest from '../Assets/Images/weekly-contest.png';
+import coding from '../Assets/Images/coding.png';
+import dedicatedcoach from '../Assets/Images/dedicated career coach.png';
+import hrmock from '../Assets/Images/hr mock.png';
+import resume from '../Assets/Images/resume.png';
+import companyspecific from '../Assets/Images/companyspecific.png';
 
-import logo from '../Assets/Images/new_logo_techmentor_core-removebg-preview.png';
-import student from '../Assets/Images/Digvijay.png';
+import student1 from '../Assets/Images/students/ashish dash.jpeg';
+import student2 from '../Assets/Images/students/debasish sundaray.jpeg';
+import student3 from '../Assets/Images/students/satyabrata dhal.jpeg';
+import student4 from '../Assets/Images/students/chandan.jpeg';
+
+import tcs from '../Assets/Images/company-logo/tcs.png';
+import kovaion from '../Assets/Images/company-logo/kovaion.png';
+import wipro from '../Assets/Images/company-logo/wipro.png';
+import indexnine from '../Assets/Images/company-logo/indexnine.png';
+
+import highlight1 from '../Assets/Images/highlight1.png';
+import highlight2 from '../Assets/Images/highlight2.png';
+import highlight3 from '../Assets/Images/highlight3.png';
+import highlight4 from '../Assets/Images/highlight4.png';
+import highlight5 from '../Assets/Images/highlight5.png';
+import highlight6 from '../Assets/Images/highlight6.png';
 
 export const featureData = [
   {
@@ -28,29 +48,59 @@ export const featureData = [
     featureimg: doubtsolving,
     featurename: "Doubt Solving",
   },
+  {
+    featureimg: weeklycontest,
+    featurename: "Weekly Contest",
+  },
+  {
+    featureimg: coding,
+    featurename: "5000+ Coding Questions",
+  },
+  {
+    featureimg: dedicatedcoach,
+    featurename: "Dedicated Career Coach",
+  },
+  {
+    featureimg: hrmock,
+    featurename: "Mock HR & Tech Interviews",
+  },
+  {
+    featureimg: resume,
+    featurename: "Resume & Portfolio Building",
+  },
+  {
+    featureimg: companyspecific,
+    featurename: "Company Specific Preparation",
+  },
 ];
+
 
 export const Highlight = [
   {
-    title:
-      "Live lectures from experienced instructors in big tech firms on weekdays.",
+    imgurl : highlight1,
+    title:"Live lectures from experienced instructors in big tech firms on weekdays.",
   },
   {
+    imgurl : highlight2,
     title:
       "Access to lecture recorclings for review and catching up on missed classes.",
   },
   {
+    imgurl : highlight3,
     title: "Daily assignments to practice and reinforce concepts",
   },
   {
+    imgurl : highlight4,
     title:
       "Personalize learning support through live doubt resolution and mentorship sessions",
   },
   {
+    imgurl : highlight5,
     title:
       "Skill evaluation via weekend contests, module-end tests and mock interviews",
   },
   {
+    imgurl : highlight6,
     title:
       "Self-learning resources include topic-wise notes, coding questions, major projects, and soft skill training for interviews",
   },
@@ -150,34 +200,34 @@ export const PricingData = [{
 export const StudentDetailsData = [
     {
         heading : "Student with career gap",
-        name:"Akosh Ingoley",
-        studentimg : student,
-        role:"Software Engineer",
-        companyimg : logo,
+        name:"Ashish Dash",
+        studentimg : student1,
+        role:"System Engineer",
+        companyimg : tcs,
         quote : "“From losing hope to now worming as an SDE in TechMentorCore”"
     },
     {
         heading : "Non-IT Working Professional",
-        name:"Neel Ratn",
-        studentimg : student,
+        name:"Debashish Sundaray",
+        studentimg : student2,
         role:"Software Engineer",
-        companyimg : logo,
+        companyimg : kovaion,
         quote : "“Salary jump from 3.6 to 12+ Lakhs in 10 months”"
     },
     {
         heading : "Student with CS/IT Background",
-        name:"Abdullah Farhon Safwi",
-        studentimg : student,
-        role:"Software Engineer",
-        companyimg : logo,
-        quote : "“From losing hope to now worming as an SDE in Maersk”"
+        name:"Satyabrata Dhal",
+        studentimg : student3,
+        role:"Project Trainee",
+        companyimg : wipro,
+        quote : "“From losing hope to now worming as an Project Trainee in Wipro"
     },
     {
-        heading : "Student with Low CGPA",
-        name:"Vineet Raj",
-        studentimg : student,
-        role:"Software Engineer",
-        companyimg : logo,
-        quote : "“From scoring less than 60 % in Gollege to working in HSBC”"
-    },
+      heading : "Student with CS/IT Background",
+      name:"Chandan Chiranjeeb Sahoo",
+      studentimg : student4,
+      role:"Software Engineer",
+      companyimg : indexnine,
+      quote : "“From losing hope to now worming as an Project Trainee in Wipro"
+  }
 ]

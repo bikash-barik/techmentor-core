@@ -6,21 +6,40 @@
     margin: 50px 0;
 }
 
-.studentdetailsection h1{
-    color: var(--primary);
-    font-weight: 700;
-    font-size: 3.5rem;
+.studentcategory{
+    display: flex;
+    justify-content: flex-start;
+    width: 80%;
+    margin-top: 30px;
+}
+
+.studentcategorypara{
     text-align: center;
+    background-color: var(--primary);
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.studentcategorypara p{
+    margin: 0;
 }
 
 .studentdetailrow{
-    margin: 50px 0;
+    margin: 10px 0;
     width: 80%;
     gap: 10px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 @media screen and (max-width:600px) {
     .studentdetailrow{
         width: 95%;
     }
+
+    .studentcategory{
+        width: 95%;
+    }
+    
 }

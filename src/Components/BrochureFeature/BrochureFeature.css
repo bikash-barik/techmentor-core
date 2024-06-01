@@ -36,7 +36,7 @@
 
 .portalheading2{
     font-weight: 700;
-    font-size: 24px;
+    font-size: 1.5rem;
     color: rgb(0, 0, 0);
     margin-bottom: 10px;
 }
@@ -60,11 +60,22 @@
 
 @media screen and (max-width:600px) {
     .portalrow{
-        flex-direction: column;
+        width: 95%;
+    }
+
+    .featuresrow{
         width: 95%;
     }
 
     .portal-left,.portal-right {
-        width: 100%;
+        padding: 10px;
+    }
+
+    .portalheading2{
+        font-size: 0.8rem;
+    }
+
+    .portalheading3{
+        font-size: 14px;
     }
 }
