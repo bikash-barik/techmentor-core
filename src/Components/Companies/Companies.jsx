@@ -12,8 +12,13 @@ import freecharge from '../../Assets/Images/company-logo/freecharge.png';
 import hsbc from '../../Assets/Images/company-logo/hsbc.png';
 import tatadigital from '../../Assets/Images/company-logo/tata digital.png';
 import visa from '../../Assets/Images/company-logo/visa.png';
-
+import FetchData from '../../Utils/FetchData';
 export default function Companies() {
+
+  const companies =  FetchData("Companies");
+
+  console.log("companies data",companies);
+
   return (
     <>
       <section id="brochure-page4" class="companies">
@@ -27,6 +32,13 @@ export default function Companies() {
 
           <div class="gy-4">
               <div class="companiesimages">
+                {
+                  companies && companies.length > 0 ?
+                  companies.map((company)=>(
+                    <img key={company.id} src={company.imageUrl} alt="company" />
+                  ))
+                  :
+                <> 
                 <img src={amazon} alt="bank" />
                 <img src={paytm} alt="bank" />
                 <img src={airtel} alt="bank" />
@@ -40,6 +52,9 @@ export default function Companies() {
                 <img src={hsbc} alt="bank" />
                 <img src={tatadigital} alt="bank" />
                 <img src={visa} alt="bank" />
+                </>
+                }
+                
               </div>
           </div>
         </div>

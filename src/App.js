@@ -15,7 +15,9 @@ import MobileViewHeader from './Components/MobileViewHeader/MobileViewHeader';
 import FloatingButton from './Components/FloatingButton/FloatingButton';
 import TermsAndConditions from './Pages/TermsAndConditions/TermsAndConditions';
 import Brochure from './Pages/Brochure/Brochure';
-
+import Login from './Pages/Login/Login';
+import Register from './Pages/Register/Register';
+import Upload from './Pages/Upload/Upload'
 function App() {
   useEffect(() => {
     AOS.init();
@@ -28,6 +30,9 @@ function App() {
         <Routes>
           <Route path='/' element={<Home/>}/>
           <Route path='/about' element={<About/>}/>
+          <Route path='/login' element={<Login/>}/>
+          <Route path='/register' element={<Register/>}/>
+          <Route path='/upload' element={<Upload/>}/>
           <Route path='/brochure' element={<Brochure/>}/>
           <Route path='/courses' element={<Courses/>}/>
           <Route path='/payonline' element={<PayOnline/>}/>
