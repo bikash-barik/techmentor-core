@@ -22,5 +22,6 @@
     .companies img {
         width: 24%;
         margin: 0 15px;
+        height: 60px;
     }
 }
