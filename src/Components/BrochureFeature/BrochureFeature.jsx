@@ -1,6 +1,8 @@
 import "./BrochureFeature.css";
 import broimg from "../../Assets/Images/about.jpg";
 import FeatureCard from "../FeatureCard/FeatureCard";
+import { featureData } from "../../Utils/StaticData";
+
 export default function BrochureFeature() {
   return (
     <section className="brouchersection" id="brochure-page5">
@@ -9,11 +11,11 @@ export default function BrochureFeature() {
       </div>
 
       <div className="row featuresrow">
-        <FeatureCard/>
-        <FeatureCard/>
-        <FeatureCard/>
-        <FeatureCard/>
-        <FeatureCard/>
+        {
+          featureData.map((feature)=>(
+              <FeatureCard feature = {feature}/>
+          ))
+        }
       </div>
 
       <div className="portal">

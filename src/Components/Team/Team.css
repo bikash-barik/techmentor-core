@@ -47,3 +47,25 @@
 .teamrow{
     margin: 50px 0;
 }
+
+
+@media screen and (max-width:600px) {
+    .teamsection{
+        margin: 0 ;
+    }
+    .teamdiv{
+        width: 95%;
+    }
+    .teamheading{
+        font-size: 3rem;
+    }
+
+    .teamdiv p {
+        line-height: 1.2;
+        font-size: 1rem;
+        text-align: justify !important;
+    }
+    .teamimage{
+        height: 150px;
+    }
+}

@@ -1,5 +1,18 @@
 import './Companies.css'
-import company from '../../Assets/Images/new_logo_techmentor_core-removebg-preview.png'
+import amazon from '../../Assets/Images/company-logo/amazon.png';
+import paytm from '../../Assets/Images/company-logo/paytm.png';
+import airtel from '../../Assets/Images/company-logo/airtel.png';
+import capgemini from '../../Assets/Images/company-logo/capgemini.png';
+import hdfcbank from '../../Assets/Images/company-logo/idfc bank.png';
+import hcl from '../../Assets/Images/company-logo/hcl.png';
+import makemytrip from '../../Assets/Images/company-logo/make-my-trip.png';
+import walmart from '../../Assets/Images/company-logo/walmart.png';
+import maersk from '../../Assets/Images/company-logo/maersk.png';
+import freecharge from '../../Assets/Images/company-logo/freecharge.png';
+import hsbc from '../../Assets/Images/company-logo/hsbc.png';
+import tatadigital from '../../Assets/Images/company-logo/tata digital.png';
+import visa from '../../Assets/Images/company-logo/visa.png';
+
 export default function Companies() {
   return (
     <>
@@ -7,33 +20,26 @@ export default function Companies() {
         <div class="container">
 
           <div className="text-center">
-            <h1 className="section-title brochure-section-title bg-white text-center primarycolor px-3 mb-5">
+            <h1 className="brochureheaderheading1 bg-white text-center primarycolor px-3 mb-5">
               300+ Companies have hired our Students
             </h1>
           </div>
 
           <div class="gy-4">
               <div class="companiesimages">
-                <img src={company} alt="bank" />
-                <img src={company} alt="bank" />
-                <img src={company} alt="bank" />
-                <img src={company} alt="bank" />
-                <img src={company} alt="bank" />
-                <img src={company} alt="bank" />
-                <img src={company} alt="bank" />
-                <img src={company} alt="bank" />
-                <img src={company} alt="bank" />
-                <img src={company} alt="bank" />
-                <img src={company} alt="bank" />
-                <img src={company} alt="bank" />
-                <img src={company} alt="bank" />
-                <img src={company} alt="bank" />
-                <img src={company} alt="bank" />
-                <img src={company} alt="bank" />
-                <img src={company} alt="bank" />
-                <img src={company} alt="bank" />
-                <img src={company} alt="bank" />
-                <img src={company} alt="bank" />
+                <img src={amazon} alt="bank" />
+                <img src={paytm} alt="bank" />
+                <img src={airtel} alt="bank" />
+                <img src={capgemini} alt="bank" />
+                <img src={hdfcbank} alt="bank" />
+                <img src={hcl} alt="bank" />
+                <img src={walmart} alt="bank" />
+                <img src={makemytrip} alt="bank" />
+                <img src={maersk} alt="bank" />
+                <img src={freecharge} alt="bank" />
+                <img src={hsbc} alt="bank" />
+                <img src={tatadigital} alt="bank" />
+                <img src={visa} alt="bank" />
               </div>
           </div>
         </div>

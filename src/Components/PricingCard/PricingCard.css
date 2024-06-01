@@ -18,8 +18,15 @@
 }
 
 .pricing .card-price {
-    font-size: 3rem;
+    font-size: 1rem;
     margin: 0;
+}
+
+.pricing .card-price1 {
+    font-size: 2rem;
+    color: var(--primary);
+    margin: 0;
+    margin-top: 10px;
 }
 
 .pricing .card-price .period {
@@ -29,11 +36,17 @@
 .pricing ul {
     display: flex;
     flex-direction: column;
+    margin-left: 0;
+    padding: 0 10px;
+    margin-top: 20px;
 }
 
 .pricing ul li {
     margin-bottom: 1rem;
     text-align: left;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 
 .pricing .text-muted {

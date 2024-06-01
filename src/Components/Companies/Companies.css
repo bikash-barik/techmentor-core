@@ -5,11 +5,22 @@
 .companiesimages {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 30px;
 }
 
 .companies img {
-    height: 60px;
+    height: 90px;
     width: 20%;
     margin: 0 20px;
+}
+
+@media screen and (max-width:600px) {
+    .companiesimages {
+        gap: 10px;
+    }
+
+    .companies img {
+        width: 24%;
+        margin: 0 15px;
+    }
 }

@@ -5,7 +5,7 @@ export default function Time() {
     <>
       <section className="timesection" id="brochure-page3">
         <div className="timediv">
-          <h1>Why you should invest <br /> your time?</h1>
+          <h1 className="brochureheaderheading1">Why you should invest <br /> your time?</h1>
         </div>
 
         <div className="quotediv">
@@ -21,7 +21,7 @@ export default function Time() {
 
         <div className="timeparadiv">
           <p>
-            At AccioJob, we understand the challenges faced by students like YOU
+            At Techmentor-Core, we understand the challenges faced by students like YOU
             who have been exposed to traditional teaching methods that emphasize
             rote learning. We believe that true learning comes from
             understancling concepts, hands-on experience, and the ability to

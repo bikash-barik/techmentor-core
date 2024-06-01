@@ -1,13 +1,12 @@
 import './FeaturedCard.css';
-import liveclass from '../../Assets/Images/live classes.png';
 
-export default function FeatureCard() {
+export default function FeatureCard({feature}) {
   return (
     <>
      <div className="col-lg-3 featuredcarddiv">
         <div className='featuredcardinnerdiv'>
-           <img src={liveclass} alt="liveclass" />
-           <p>Live Classes</p>
+           <img src={feature.featureimg} alt="liveclass" />
+           <p>{feature.featurename}</p>
         </div>
      </div> 
     </>

@@ -50,3 +50,9 @@
     margin-bottom: 0;
 }
 
+
+@media screen and (max-width:600px) {
+    .studentcarddiv{
+        width: 100%;
+    }
+}

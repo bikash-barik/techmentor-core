@@ -1,11 +1,12 @@
 .brochureheadersection{
-    padding: 100px 0;
+    padding: 50px 0;
 }
 
 .brochureheaderheading1{
     font-weight: 700;
     color: var(--primary);
-    font-size: 5rem;
+    font-size: 4rem;
+    text-align: center;
 }
 
 .brochureheaderheading2{
@@ -58,4 +59,30 @@
 
 .brochureheadercountercard h2{
     text-align: center;
+}
+
+@media screen and (max-width:600px) {
+    .brochureheadersection{
+        padding: 30px 0;
+    }
+    .brochureheaderheading1{
+        font-size: 2rem;
+    }
+
+    .brochureheaderheading2{
+        font-size: 1.5rem;
+    }
+
+    .brochureheadercounterdiv{
+        width: 95%;
+    }
+
+    .brochureheadercountercard h1{
+        font-size: 2rem;
+    }
+
+    .brochureheadercountercard h2{
+        font-size: 1.5rem;
+    }
+    
 }
