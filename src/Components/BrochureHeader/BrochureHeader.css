@@ -20,6 +20,7 @@
     border: 7px solid rgba(0, 0, 0,0.2);
     display: flex;
     flex-wrap: wrap;
+    background-color: white;
 }
 
 .brochureheadercountercard:nth-child(1){

@@ -8,7 +8,7 @@ export default function Pricing() {
        <section className="pricing py-5" id="brochure-page6">
         <div className="container">
           <div className="text-center ">
-            <h1 className="section-title brochure-section-title bg-white text-center primarycolor px-3 mb-5">Pricing</h1>
+            <h1  className='brochureheaderheading1'>Pricing</h1>
             <h3>Start your journey toward success with an easily manageable tuition fee!</h3>
           </div>
 

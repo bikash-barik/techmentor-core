@@ -27,6 +27,10 @@ import highlight4 from '../Assets/Images/highlight4.png';
 import highlight5 from '../Assets/Images/highlight5.png';
 import highlight6 from '../Assets/Images/highlight6.png';
 
+import eligible1 from '../Assets/Images/eligible1.png';
+import eligible2 from '../Assets/Images/eligible2.png';
+import eligible3 from '../Assets/Images/eligible3.png';
+
 export const featureData = [
   {
     featureimg: liveclasses,
@@ -230,4 +234,45 @@ export const StudentDetailsData = [
       companyimg : indexnine,
       quote : "“From losing hope to now worming as an Project Trainee in Wipro"
   }
+]
+
+export const eligibleData = [
+  {
+    image : eligible1,
+    heading:"Final Year Students",
+    subheading:"Preparing for Final Year Placements and for the long-lasting Tech Journey ahead."
+  },
+  {
+    image : eligible2,
+    heading:"Students and Graduates",
+    subheading:"Looking to start their career in tech."
+  },
+  {
+    image : eligible3,
+    heading:"Working Professionals",
+    subheading:"Looking to upskill and make that dream switch."
+  }
+]
+
+export const powerData=[
+  {
+    innerdiv1:"In Demand Skill",
+    innerdiv2:"Java's robustness and scalability make it ideal for handling complex and large-scale applications. By studying Java backend, you'll be equipped to build efficiem, reliable, and high-performance systems capable of handling substantial user laads."
+  },
+  {
+    innerdiv1:"Robust and Scalable Solution",
+    innerdiv2:"Java's robustness and scalability make it ideal for handling complex and large-scale applications. By studying Java backend, you'll be equipped to build efficiem, reliable, and high-performance systems capable of handling substantial user laads."
+  },
+  {
+    innerdiv1:"Versatility",
+    innerdiv2:"Java is not limited to a single domain. It can be used to develop a wide range of applications, from web developmem to emerprise solutions and even Android mobile applications."
+  },
+  {
+    innerdiv1:"Industry Giants repy on java",
+    innerdiv2:"Many renowned companies, including tech giants like Google, Amazon, and Netflix, rely on Java for their backend infrastructure. Mudying Java backend means you'll be aligning yourself with industry best practices and standarcls."
+  },
+  {
+    innerdiv1:"Future proof technology",
+    innerdiv2:"Java has stood the test of time and is continually evolving. With regular updates and advancemems, studying Java backend guarantees that you are investing in a future-proof skillset."
+  },
 ]

@@ -1,4 +1,4 @@
-import React from 'react'
+import './Brochure.css'
 import Pricing from '../../Components/Pricing/Pricing'
 import BrochureFeature from '../../Components/BrochureFeature/BrochureFeature'
 import Companies from '../../Components/Companies/Companies'
@@ -8,21 +8,29 @@ import Time from '../../Components/Time/Time'
 import Curriculum from '../../Components/Curriculum/Curriculum'
 import StudentDetails from '../../Components/StudentDetails/StudentDetails'
 import Highlights from '../../Components/Highlights/Highlights'
-// import Eligible from '../../Components/Eligible/Eligible'
+import Journey from '../../Components/Journey/Journey'
+import Eligible from '../../Components/Eligible/Eligible'
+import Power from '../../Components/Power/Power'
+import Demo from '../../Components/Demo/Demo'
+import BrochureBottom from '../../Components/BrochureBottom/BrochureBottom'
 
 export default function Brochure() {
   return (
-    <>
+    <div className='brochurediv'>
      <BrochureHeader/>
      <Team/>
+     <Power/>
      <Time/>
      <Curriculum/>
      <StudentDetails/>
      <Companies/>
-     {/* <Eligible/> */}
      <BrochureFeature/>
+     <Journey/>
+     <Eligible/>
+     <Demo/>
      <Highlights/>
      <Pricing/> 
-    </>
+     <BrochureBottom/>
+    </div>
   )
 }

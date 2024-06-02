@@ -2,22 +2,16 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 50px 0;
 }
 
 .eligiblediv{
     width: 70%;
 }
 
-.eligiblediv h1{
-    color: var(--primary);
-    font-weight: 700;
-    font-size: 3.5rem;
-    text-align: center;
-}
-
 .eligiblediv h3{
     text-align: center;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 .eligiblediv p{
@@ -26,3 +20,52 @@
     font-size: 1.3rem;
 }
 
+.eligiblediv p span{
+    color: var(--primary);
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.eligiblecarddiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.eligiblecard{
+    display: flex;
+    gap: 20px;
+    width: 66%;
+    margin-top: 20px;
+}
+
+.eligiblecard1{
+    justify-content: flex-end;
+}
+
+.eligiblecardinfodiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.eligiblecardinfodiv h4{
+    font-weight: 600;
+}
+
+.eligiblecardinfodiv p{
+    margin: 0;
+    text-align: start;
+}
+
+@media screen and (max-width:600px) {
+    .eligiblediv{
+        width: 95%;
+    }
+
+    .eligiblecard{
+        width: 96%;
+        gap: 10px;
+    }
+}

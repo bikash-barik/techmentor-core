@@ -25,12 +25,11 @@ export default function Companies() {
         <div class="container">
 
           <div className="text-center">
-            <h1 className="brochureheaderheading1 bg-white text-center primarycolor px-3 mb-5">
+            <h1 className="brochureheaderheading1 text-center primarycolor px-3 mb-5">
               300+ Companies have hired our Students
             </h1>
           </div>
 
-          <div class="gy-4">
               <div class="companiesimages">
                 {
                   companies && companies.length > 0 ?
@@ -56,7 +55,6 @@ export default function Companies() {
                 }
                 
               </div>
-          </div>
         </div>
       </section>
     </>

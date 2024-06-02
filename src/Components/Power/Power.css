@@ -1,0 +1,71 @@
+.powersection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.powerdiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.powercarddiv {
+    width: 80%;
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+}
+
+.powercardinner1 {
+    width: 10%;
+    border-radius: 10px;
+    background-color: var(--primary);
+    padding: 20px;
+}
+
+.powercardinner1 p {
+    margin: 0;
+    text-align: center;
+    color: white;
+}
+
+.powercardinner2 {
+    width: 90%;
+    padding: 20px;
+}
+
+.powercardinner2 p {
+    margin: 0;
+}
+
+@media screen and (max-width:600px) {
+    .powercarddiv {
+        width: 95%;
+    }
+
+    .powercardinner1 {
+        width: 30%;
+        display: flex;
+        padding: 10px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .powercardinner2 {
+        width: 70%;
+        padding: 10px;
+    }
+
+
+    .powercardinner1 p {
+       font-size: 0.8rem;
+    }
+
+    .powercardinner2 p {
+        font-size: 0.7rem;
+    }
+}

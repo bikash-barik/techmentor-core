@@ -4,6 +4,7 @@
     align-items: center;
     justify-content: center;
     margin: 50px 0 ;
+    
 }
 
 .timediv{
@@ -42,6 +43,7 @@
     border: 7px solid rgba(0, 0, 0, 0.2);
     border-radius: 10px;
     padding: 30px;
+    background-color: white;
 }
 .timeparadiv p{
     text-align: center;

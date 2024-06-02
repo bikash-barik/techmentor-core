@@ -1,17 +1,21 @@
 .companies{
     padding: 50px 0;
+    background-color: white;
 }
 
 .companiesimages {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
+    width: 97%;
+   
 }
 
 .companies img {
-    height: 90px;
-    width: 20%;
-    margin: 0 20px;
+    height: 80px;
+    width: 14%;
+    margin: 0 55px;
+   
 }
 
 @media screen and (max-width:600px) {
@@ -20,8 +24,8 @@
     }
 
     .companies img {
-        width: 24%;
-        margin: 0 15px;
-        height: 60px;
+        width: 26%;
+        margin: 0 10px;
+        height: 55px;
     }
 }

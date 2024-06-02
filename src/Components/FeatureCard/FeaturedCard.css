@@ -1,19 +1,21 @@
 .featuredcarddiv{
-    padding: 10px;
+    padding: 10px 20px;
 }
 
 .featuredcardinnerdiv{
-    border: 2px solid #ccc;
+    border: 1px solid #ccc;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     padding: 10px 0;
+    background-color: white;
 }
 
 .featuredcardinnerdiv img{
-    height: 60px;
+    height: 70px;
+    width: 70px;
 }
 
 .featuredcardinnerdiv p{
@@ -23,7 +25,10 @@
 }
 
 @media screen and (max-width:600px) {
+    .featuredcarddiv{
+        padding: 8px;
+    }
     .featuredcardinnerdiv{
-        height: 150px;
+        height: 160px;
     }
 }

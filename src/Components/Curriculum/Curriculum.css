@@ -16,11 +16,12 @@
 }
 
 .curriculumdesc{
-    background: #eee;
+    background-color: white;
     border-radius: 10px;
     width: 70%;
     padding: 10px 10px 10px 30px;
     margin-top: 30px;
+    border: 2px solid #eee;
 }
 
 .curriculumdesc p{
