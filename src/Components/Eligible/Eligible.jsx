@@ -1,7 +1,7 @@
 import './Eligible.css';
-import eligible1 from '../../Assets/Images/eligible1.png';
-import eligible2 from '../../Assets/Images/eligible2.png';
-import eligible3 from '../../Assets/Images/eligible3.png';
+import eligible1 from '../../Assets/Images//eligible/eligible1.png';
+import eligible2 from '../../Assets/Images/eligible/eligible2.png';
+import eligible3 from '../../Assets/Images/eligible/eligible3.png';
 export default function Eligible() {
   return (
     <>

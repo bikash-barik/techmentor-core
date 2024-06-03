@@ -27,9 +27,9 @@ import highlight4 from '../Assets/Images/highlight4.png';
 import highlight5 from '../Assets/Images/highlight5.png';
 import highlight6 from '../Assets/Images/highlight6.png';
 
-import eligible1 from '../Assets/Images/eligible1.png';
-import eligible2 from '../Assets/Images/eligible2.png';
-import eligible3 from '../Assets/Images/eligible3.png';
+// import eligible1 from '../Assets/Images/eligible1.png';
+// import eligible2 from '../Assets/Images/eligible2.png';
+// import eligible3 from '../Assets/Images/eligible3.png';
 
 export const featureData = [
   {
@@ -136,7 +136,7 @@ export const CurriculumData = [
     desc: "Build impressive Spring-based capstone projects to boost your profile.",
   },
   {
-    title: "AIntro to HTML, CSS and JavaScript",
+    title: "AIntro to HTML, CSS and Full-stack DevelopmentScript",
     desc: "Client-side programming and Integration with backend to build a frill-stack web application.",
   },
   {
@@ -219,6 +219,14 @@ export const StudentDetailsData = [
         quote : "“Salary jump from 3.6 to 12+ Lakhs in 10 months”"
     },
     {
+      heading : "Non-IT Working Professional",
+      name:"Debashish Sundaray",
+      studentimg : student2,
+      role:"Software Engineer",
+      companyimg : kovaion,
+      quote : "“Salary jump from 3.6 to 12+ Lakhs in 10 months”"
+    },
+    {
         heading : "Student with CS/IT Background",
         name:"Satyabrata Dhal",
         studentimg : student3,
@@ -236,43 +244,43 @@ export const StudentDetailsData = [
   }
 ]
 
-export const eligibleData = [
-  {
-    image : eligible1,
-    heading:"Final Year Students",
-    subheading:"Preparing for Final Year Placements and for the long-lasting Tech Journey ahead."
-  },
-  {
-    image : eligible2,
-    heading:"Students and Graduates",
-    subheading:"Looking to start their career in tech."
-  },
-  {
-    image : eligible3,
-    heading:"Working Professionals",
-    subheading:"Looking to upskill and make that dream switch."
-  }
-]
+// export const eligibleData = [
+//   {
+//     image : eligible1,
+//     heading:"Final Year Students",
+//     subheading:"Preparing for Final Year Placements and for the long-lasting Tech Journey ahead."
+//   },
+//   {
+//     image : eligible2,
+//     heading:"Students and Graduates",
+//     subheading:"Looking to start their career in tech."
+//   },
+//   {
+//     image : eligible3,
+//     heading:"Working Professionals",
+//     subheading:"Looking to upskill and make that dream switch."
+//   }
+// ]
 
 export const powerData=[
   {
     innerdiv1:"In Demand Skill",
-    innerdiv2:"Java's robustness and scalability make it ideal for handling complex and large-scale applications. By studying Java backend, you'll be equipped to build efficiem, reliable, and high-performance systems capable of handling substantial user laads."
+    innerdiv2:"Full-stack Development's robustness and scalability make it ideal for handling complex and large-scale applications. By studying Full-stack Development, you'll be equipped to build efficiem, reliable, and high-performance systems capable of handling substantial user laads."
   },
   {
     innerdiv1:"Robust and Scalable Solution",
-    innerdiv2:"Java's robustness and scalability make it ideal for handling complex and large-scale applications. By studying Java backend, you'll be equipped to build efficiem, reliable, and high-performance systems capable of handling substantial user laads."
+    innerdiv2:"Full-stack Development's robustness and scalability make it ideal for handling complex and large-scale applications. By studying Full-stack Development , you'll be equipped to build efficiem, reliable, and high-performance systems capable of handling substantial user laads."
   },
   {
     innerdiv1:"Versatility",
-    innerdiv2:"Java is not limited to a single domain. It can be used to develop a wide range of applications, from web developmem to emerprise solutions and even Android mobile applications."
+    innerdiv2:"Full-stack Development is not limited to a single domain. It can be used to develop a wide range of applications, from web developmem to emerprise solutions and even Android mobile applications."
   },
   {
-    innerdiv1:"Industry Giants repy on java",
-    innerdiv2:"Many renowned companies, including tech giants like Google, Amazon, and Netflix, rely on Java for their backend infrastructure. Mudying Java backend means you'll be aligning yourself with industry best practices and standarcls."
+    innerdiv1:"Industry Giants uses this.",
+    innerdiv2:"Many renowned companies, including tech giants like Google, Amazon, and Netflix, rely on Full-stack Development for their backend infrastructure. Mudying Full-stack Development means you'll be aligning yourself with industry best practices and standarcls."
   },
   {
     innerdiv1:"Future proof technology",
-    innerdiv2:"Java has stood the test of time and is continually evolving. With regular updates and advancemems, studying Java backend guarantees that you are investing in a future-proof skillset."
+    innerdiv2:"Full-stack Development has stood the test of time and is continually evolving. With regular updates and advancemems, studying Full-stack Development guarantees that you are investing in a future-proof skillset."
   },
 ]

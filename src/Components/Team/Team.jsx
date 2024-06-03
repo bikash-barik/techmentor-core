@@ -3,27 +3,25 @@ import "./Team.css";
 export default function Team() {
   return (
     <>
-      <section className="teamsection" id="brochure-page2" >
+      <section className="teamsection" id="brochure-page2">
         <div className="teamdiv">
-          <h1 className='teamheading'>Who we are?</h1>
+          <h1 className="teamheading">Who we are?</h1>
 
           <p>
-            At AccioJob (YC 2019), we are not just another Edtech platform; we
-            are a passionate team of young visionaries with a mission to change
-            the teaching landscape in India. Our goal is to bridge the gap
-            between skills and employability in the ever-expanding and dynamic
-            technology market.
+            At Techmentorcore, we are more than just an Edtech platform; we are
+            a dynamic team of young visionaries dedicated to transforming the
+            teaching landscape in India. Our mission is to bridge the gap
+            between skills and employability in the rapidly evolving technology
+            market.
           </p>
 
           <p>
-            Founbeb in 2018 by four batchmates of IIT Delhi, we’re now a team of
-            200+ employees, backed by Marquee Investors like Co Dinato avi and
-            more. Students enrolled and taught here are currently working in
-            some top MNCs and Startups like Amazon, Lowe’s, HSBC, MakeMyTrip,
-            DailyHunt, etc.
+            We provide cutting-edge tech skills training, preparing students
+            thoroughly for job interviews. Our programs include
+            industry-standard projects, ensuring our students gain hands-on
+            experience and are ready to excel in their careers from day one.
           </p>
         </div>
-
       </section>
     </>
   );
