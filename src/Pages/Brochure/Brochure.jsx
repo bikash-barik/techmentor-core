@@ -21,15 +21,15 @@ export default function Brochure() {
      <Team/>
      <Power/>
      <Time/>
+     <Companies/>
      <Curriculum/>
      <StudentDetails/>
-     <Companies/>
      <BrochureFeature/>
      <Journey/>
      <Eligible/>
      <Demo/>
-     <Highlights/>
      <Pricing/> 
+     <Highlights/>
      <BrochureBottom/>
     </div>
   )

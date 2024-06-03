@@ -16,6 +16,7 @@ export default function StudentDetails() {
         <div className="row g-4 studentdetailrow">
               <StudentDetailsCard student={StudentDetailsData[0]}/>
               <StudentDetailsCard student={StudentDetailsData[1]}/>
+              <StudentDetailsCard student={StudentDetailsData[2]}/>
         </div>
 
         <div className="studentcategory">
@@ -25,7 +26,9 @@ export default function StudentDetails() {
         </div>
 
         <div className="row g-4 studentdetailrow">
-              <StudentDetailsCard student={StudentDetailsData[2]}/>
+              <StudentDetailsCard student={StudentDetailsData[3]}/>
+              <StudentDetailsCard student={StudentDetailsData[4]}/>
+              <StudentDetailsCard student={StudentDetailsData[5]}/>
         </div>
 
         <div className="studentcategory">
@@ -35,7 +38,9 @@ export default function StudentDetails() {
         </div>
 
         <div className="row g-4 studentdetailrow">
-              <StudentDetailsCard student={StudentDetailsData[3]}/>
+              <StudentDetailsCard student={StudentDetailsData[6]}/>
+              <StudentDetailsCard student={StudentDetailsData[7]}/>
+              <StudentDetailsCard student={StudentDetailsData[8]}/>
         </div>
       </section>
     </>

@@ -6,7 +6,7 @@ export default function Curriculum() {
     <>
      <section className='curriculumsection'>
        <div className='curriculumdiv'>
-          <h1 className='brochureheaderheading1'>Expert-Led Curriculum</h1>
+          <h1 className='brochureheaderheading1' style={{color:"white"}}>Expert-Led Curriculum</h1>
 
           <h3>Your path to Mastery in Programming by equipping you to conquer any challenge!</h3>
        </div>

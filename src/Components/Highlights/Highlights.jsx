@@ -1,10 +1,10 @@
-import { Highlight } from "../../Utils/StaticData";
+import { Highlight, HighlightBottom } from "../../Utils/StaticData";
 import './Highlights.css';
 
 export default function Highlights() {
   return (
     <>
-       <section className='curriculumsection mt-4'>
+       <section className='highlightsection'>
        <div className='curriculumdiv'>
           <h1 className="brochureheaderheading1">Highlights</h1>
        </div>
@@ -27,6 +27,17 @@ export default function Highlights() {
       }
        </div>
       
+      <div className="highlightbottom">
+        {
+          HighlightBottom.map((highlightbottom)=>(
+            <div className="highlightbtmdiv">
+               <img src={highlightbottom.image} alt="" />
+               <p>{highlightbottom.desc}</p>
+            </div>
+          ))
+        }
+       
+      </div>
       
        
      </section> 
