@@ -30,11 +30,14 @@ export default function Companies() {
             </h1>
           </div>
 
-              <div class="companiesimages">
+              <div class="companiesimages row d-flex g-4">
                 {
                   companies && companies.length > 0 ?
                   companies.map((company)=>(
-                    <img key={company.id} src={company.imageUrl} alt="company" />
+                    <div className="companiesimagediv col-3 ">
+                      <img key={company.id} src={company.imageUrl} alt="company" />
+                    </div>
+                   
                   ))
                   :
                 <> 

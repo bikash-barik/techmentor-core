@@ -103,7 +103,7 @@ export const Highlight = [
   {
     imgurl: highlight2,
     title:
-      "Access to lecture recorclings for review and catching up on missed classes.",
+      "Access to lecture recordings for review and catching up on missed classes.",
   },
   {
     imgurl: highlight3,
@@ -175,12 +175,12 @@ export const CurriculumData = [
     desc: "Build impressive Spring-based capstone projects to boost your profile.",
   },
   {
-    title: "AIntro to HTML, CSS and Full-stack DevelopmentScript",
-    desc: "Client-side programming and Integration with backend to build a frill-stack web application.",
+    title: "Intro to HTML, CSS and JavaScript",
+    desc: "Client-side programming and Integration with backend to build a full-stack web application.",
   },
   {
     title: "Project Building",
-    desc: "Build 2 full-stack projects using frontend technologies and springhoot alongwith learning core computer science subjects like Operating System, Gompriter Networks, System Design, etc.",
+    desc: "Build 2 full-stack projects using frontend technologies and springboot alongwith learning core computer science subjects like Operating System, Computer Networks, System Design, etc.",
   },
   {
     title: "Advanced DSA",
@@ -339,7 +339,7 @@ export const powerData = [
   {
     innerdiv1: "In Demand Skill",
     innerdiv2:
-      "Full-stack Development's robustness and scalability make it ideal for handling complex and large-scale applications. By studying Full-stack Development, you'll be equipped to build efficiem, reliable, and high-performance systems capable of handling substantial user laads.",
+      "Full-stack Development's robustness and scalability make it ideal for handling complex and large-scale applications. By studying Full-stack Development, you'll be equipped to build efficient, reliable, and high-performance systems capable of handling substantial user loads.",
   },
   {
     innerdiv1: "Robust and Scalable Solution",
@@ -349,16 +349,16 @@ export const powerData = [
   {
     innerdiv1: "Versatility",
     innerdiv2:
-      "Full-stack Development is not limited to a single domain. It can be used to develop a wide range of applications, from web developmem to emerprise solutions and even Android mobile applications.",
+      "Full-stack Development is not limited to a single domain. It can be used to develop a wide range of applications, from web development to enterprise solutions and even Android mobile applications.",
   },
   {
     innerdiv1: "Industry Giants uses this.",
     innerdiv2:
-      "Many renowned companies, including tech giants like Google, Amazon, and Netflix, rely on Full-stack Development for their backend infrastructure. Mudying Full-stack Development means you'll be aligning yourself with industry best practices and standarcls.",
+      "Many renowned companies, including tech giants like Google, Amazon, and Netflix, rely on Full-stack Development for their backend infrastructure. Studying Full-stack Development means you'll be aligning yourself with industry best practices and standards.",
   },
   {
     innerdiv1: "Future proof technology",
     innerdiv2:
-      "Full-stack Development has stood the test of time and is continually evolving. With regular updates and advancemems, studying Full-stack Development guarantees that you are investing in a future-proof skillset.",
+      "Full-stack Development has stood the best of time and is continually evolving. With regular updates and advancements, studying Full-stack Development guarantees that you are investing in a future-proof skillset.",
   },
 ];

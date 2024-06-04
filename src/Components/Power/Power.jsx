@@ -6,7 +6,7 @@ export default function Power() {
       <section className="powersection">
         <div className="curriculumdiv">
           <h1 className="brochureheaderheading1">
-            Discover the power of studying Full-Stack Development
+            Unlock the potential of Full-Stack Development
           </h1>
 
           <h3>But First, Why should even study Full Stack Development?</h3>

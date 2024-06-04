@@ -3,29 +3,21 @@
     /* background-color: white; */
 }
 
-.companiesimages {
+.companiesimagediv{
     display: flex;
-    flex-wrap: wrap;
-    gap: 30px;
-    width: 97%;
-   
+    justify-content: center;
+    align-items: center;
 }
 
-.companies img {
+.companiesimagediv img{
     height: 80px;
-    width: 14%;
-    margin: 0 55px;
-   
+    width: 75%;
 }
 
 @media screen and (max-width:600px) {
-    .companiesimages {
-        gap: 10px;
-    }
 
     .companies img {
-        width: 26%;
-        margin: 0 10px;
-        height: 55px;
+        width: 100%;
+        height: 40px;
     }
 }

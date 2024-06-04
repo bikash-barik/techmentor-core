@@ -27,10 +27,10 @@ export default function Highlights() {
       }
        </div>
       
-      <div className="highlightbottom">
+      <div className="highlightbottom row d-flex justify-content-center">
         {
           HighlightBottom.map((highlightbottom)=>(
-            <div className="highlightbtmdiv">
+            <div className="highlightbtmdiv col-2">
                <img src={highlightbottom.image} alt="" />
                <p>{highlightbottom.desc}</p>
             </div>

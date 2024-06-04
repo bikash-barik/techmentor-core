@@ -5,7 +5,9 @@ export default function Time() {
     <>
       <section className="timesection" id="brochure-page3">
         <div className="timediv">
-          <h1 className="brochureheaderheading1">Why you should invest <br /> your time?</h1>
+          <h1 className="brochureheaderheading1">
+            Why you should invest <br /> your time?
+          </h1>
         </div>
 
         <div className="quotediv">
@@ -21,23 +23,22 @@ export default function Time() {
 
         <div className="timeparadiv">
           <p>
-            At Techmentor-Core, we understand the challenges faced by students like YOU
-            who have been exposed to traditional teaching methods that emphasize
-            rote learning. We believe that true learning comes from
-            understancling concepts, hands-on experience, and the ability to
-            apply knowleclge creatively.
+            At Techmentorcore, we are not just an Edtech platform; we are a
+            dynamic team of young visionaries committed to revolutionizing the
+            teaching landscape in India. Our mission is to bridge the gap
+            between skills and employability in the rapidly evolving technology
+            market.We offer advanced tech skills training, meticulously
+            preparing students for job interviews. 
           </p>
 
           <p>
-            Upskilling is more than just acquiring new knowledge; it's about
-            nurturing a growth mindset and developing the skills that make you
-            stand out in a competitive job market. Our platform encourages a
-            holistic approach to upskilling, combining technical expertise with
-            soft skills and character clevelopment.
+            Our programs incorporate
+            industry-standard projects, ensuring students gain practical
+            experience and are equipped to excel in their careers from day
+            one.Join us at Techmentorcore, where education meets innovation, and
+            students become industry-ready professionals.
           </p>
         </div>
-
-
       </section>
     </>
   );

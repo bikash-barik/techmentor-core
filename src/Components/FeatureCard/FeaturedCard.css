@@ -30,5 +30,10 @@
     }
     .featuredcardinnerdiv{
         height: 160px;
+        padding: 10px;
+    }
+
+    .featuredcardinnerdiv p{
+        font-size: 0.8rem;
     }
 }

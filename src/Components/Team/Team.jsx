@@ -5,7 +5,7 @@ export default function Team() {
     <>
       <section className="teamsection" id="brochure-page2">
         <div className="teamdiv">
-          <h1 className="teamheading">Who we are?</h1>
+          <h1 className="teamheading">Who are we?</h1>
 
           <p>
             At Techmentorcore, we are more than just an Edtech platform; we are

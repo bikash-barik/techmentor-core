@@ -13,7 +13,7 @@ export default function Eligible() {
             <h3>You're already eligible</h3>
             
             <p>
-            No matter what your degree, GPA, or branch is, to get the best job and learn with AccioJob, 
+            No matter what your degree, GPA, or branch is, to get the best job and learn with Techmentor-Core, 
             You are the right fit! <br /> <span>The only criteria are Hardwork and Motivation.</span>
 
             </p>
