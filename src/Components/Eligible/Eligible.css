@@ -60,7 +60,18 @@
     text-align: start;
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:1024px) {
+    .eligiblediv{
+        width: 85%;
+    }
+
+    .eligiblecard{
+        width: 85%;
+        gap: 10px;
+    }
+}
+
+@media screen and (max-width:768px) {
     .eligiblediv{
         width: 95%;
     }

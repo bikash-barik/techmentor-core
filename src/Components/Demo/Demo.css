@@ -41,16 +41,29 @@
     width: 100%;
 }
 
-@media screen and (max-width:600px) {
-    .demosection h3{
-        font-size: 1.2rem;
+@media screen and (max-width:1024px) {
+    .demodiv{
+        width: 85%;
     }
+
+    .demoinner,.demovideodiv{
+        width: 85%;
+    }
+}
+
+@media screen and (max-width:768px) {
     .demodiv{
         width: 95%;
     }
 
     .demoinner,.demovideodiv{
         width: 95%;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .demosection h3{
+        font-size: 1.2rem;
     }
 
     .demoinner p{

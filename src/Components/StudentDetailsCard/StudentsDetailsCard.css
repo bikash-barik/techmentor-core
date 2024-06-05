@@ -48,6 +48,16 @@
     margin-bottom: 0;
 }
 
+@media screen and (max-width:768px) {
+    .studentdetail{
+        margin: 10px;
+    }
+
+    .studentimgdiv img{
+        height: 70px;
+    }
+}
+
 
 @media screen and (max-width:600px) {
     .studentcarddiv{

@@ -31,7 +31,17 @@
     margin-bottom: 0;
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:1024px) {
+    .curriculumdiv{
+        width: 85%;
+    }
+    .curriculumdesc{
+        width: 85%;
+    }
+}
+
+
+@media screen and (max-width:768px) {
     .curriculumdiv{
         width: 95%;
     }

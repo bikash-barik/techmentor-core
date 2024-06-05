@@ -12,8 +12,8 @@ export default function BrochureHeader() {
             </div>
         </div>
 
-        <h1 className='brochureheaderheading1 text-center'>Empowering Tech Learners</h1>
-        <h1 className='brochureheaderheading2 text-center'>for a Bright Future</h1>
+        <h1 className='brochureheaderheading1 text-center'>Inspiring Future Tech Leaders </h1>
+        <h1 className='brochureheaderheading2 text-center'>for a Brighter Tomorrow</h1>
 
         <div className='d-flex justify-content-center my-5'>
             <div className='brochureheadercounterdiv'>

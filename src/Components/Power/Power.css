@@ -24,7 +24,7 @@
     width: 10%;
     border-radius: 10px;
     background-color: var(--primary);
-    padding: 20px;
+    padding: 15px;
 }
 
 .powercardinner1 p {
@@ -42,13 +42,13 @@
     margin: 0;
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:1024px) {
     .powercarddiv {
         width: 95%;
     }
 
     .powercardinner1 {
-        width: 30%;
+        width: 20%;
         display: flex;
         padding: 10px;
         align-items: center;
@@ -56,8 +56,20 @@
     }
 
     .powercardinner2 {
-        width: 70%;
+        width: 80%;
         padding: 10px;
+    }
+}
+
+@media screen and (max-width:600px) {
+   
+
+    .powercardinner1 {
+        width: 30%;
+    }
+
+    .powercardinner2 {
+        width: 70%;
     }
 
 

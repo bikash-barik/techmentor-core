@@ -12,12 +12,11 @@ export default function Time() {
 
         <div className="quotediv">
           <p>
-            Skills are the currency of the future, and upskilling is the key to
-            unlocking a world of limitless possibilities.
+          In the new economy, knowledge is your currency, and learning is your investment.
           </p>
 
           <div className="quotebtndiv">
-            <button className="quotebtn">- Chris Brauer</button>
+            <button className="quotebtn">-  Brian Tracy</button>
           </div>
         </div>
 

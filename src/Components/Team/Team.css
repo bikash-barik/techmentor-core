@@ -50,14 +50,18 @@
     margin: 50px 0;
 }
 
+@media screen and (max-width:768px) {
+    .teamdiv{
+        width: 95%;
+    }
+}
+
 
 @media screen and (max-width:600px) {
     .teamsection{
         margin: 0 ;
     }
-    .teamdiv{
-        width: 95%;
-    }
+  
     .teamheading{
         font-size: 3rem;
     }

@@ -6,8 +6,7 @@ export default function Demo() {
     <>
       <section className="demosection">
         <h3>
-          Have a look at how our Main Classes and Mentorship Sessions are
-          conducted
+        Explore How Our Main Classes and Mentorship Sessions Are Conducted
         </h3>
 
         <div className="demodiv">

@@ -1,3 +1,14 @@
 .pricing{
     background-color: #2f80ec;
 }
+
+.priceimagediv{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.priceimage{
+    height: 100px;
+    width: 100px;
+}

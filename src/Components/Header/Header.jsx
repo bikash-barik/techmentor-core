@@ -15,8 +15,10 @@ export default function Header() {
   return (
   <>
     <nav className="navbar">
+
       <div className="navbarcontainer">
-        <div className="logo">
+
+        <div className="logo col-md-3">
             <img src={logo} alt="" />
         </div>
 
@@ -28,7 +30,7 @@ export default function Header() {
           {showNavbar ? <IoClose/> : <GiHamburgerMenu/>}
         </div>
 
-        <div className={`nav-elements  ${showNavbar && "active"}`}>
+        <div className={`nav-elements col-md-9  ${showNavbar && "active"}`}>
           <ul>
             <li>
               <NavLink to="/" onClick={handleShowNavbar}>Home</NavLink>

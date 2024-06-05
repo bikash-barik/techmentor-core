@@ -82,7 +82,7 @@ export const featureData = [
   },
   {
     featureimg: hrmock,
-    featurename: "Mock HR & Tech Interviews",
+    featurename: "Mock HR Interviews",
   },
   {
     featureimg: resume,
@@ -98,31 +98,31 @@ export const Highlight = [
   {
     imgurl: highlight1,
     title:
-      "Live lectures from experienced instructors in big tech firms on weekdays.",
+      "Expert-Led Live Lectures from Top Tech Professionals on Weekdays"
   },
   {
     imgurl: highlight2,
     title:
-      "Access to lecture recordings for review and catching up on missed classes.",
+      "On-Demand Lecture Recordings for Easy Review and Catch-Up",
   },
   {
     imgurl: highlight3,
-    title: "Daily assignments to practice and reinforce concepts",
+    title: "Daily Practice Assignments to Reinforce Key Concepts",
   },
   {
     imgurl: highlight4,
     title:
-      "Personalize learning support through live doubt resolution and mentorship sessions",
+      "Personalized Learning Support with Live Doubt Resolution and Mentorship",
   },
   {
     imgurl: highlight5,
     title:
-      "Skill evaluation via weekend contests, module-end tests and mock interviews",
+      "Comprehensive Skill Evaluation with Weekend Contests, Module-End Tests, and Mock Interviews",
   },
   {
     imgurl: highlight6,
     title:
-      "Self-learning resources include topic-wise notes, coding questions, major projects, and soft skill training for interviews",
+      "Extensive Self-Learning Resources: Notes, Coding Challenges, Major Projects, and Soft Skill Training",
   },
 ];
 
@@ -151,42 +151,43 @@ export const HighlightBottom = [
 
 export const CurriculumData = [
   {
-    title: "Intro to Programming",
-    desc: "An introduction to programming fundamentals to start your journey as a Software developer.",
+    title: "Introduction to Programming",
+    desc: "Begin your journey as a software developer with fundamental programming concepts.",
   },
   {
-    title: "Fundamental DSA Constructs",
-    desc: "Deep dive into the most important topics of Data Structures and Algorithms.",
+    title: "Fundamental Data Structures and Algorithms",
+    desc: "Explore essential topics in data structures and algorithms.",
   },
   {
-    title: "Essential Data Structures",
-    desc: "Strong focus on problem-solving. Comprehend challenging concepts in DSA",
+    title: "Advanced Data Structures and Algorithms",
+    desc: "Deepen your understanding and problem-solving skills in DSA.",
   },
   {
-    title: "Prominent Algorithms and Data Structures",
-    desc: "Analyze complex DSA algorithms & problems and come up with Optimal solutions",
+    title: "Advanced Algorithms and Problem Solving",
+    desc: "Analyze complex algorithms and optimize solutions for challenging problems.",
   },
   {
-    title: "Basics of Spring & Spring Boot",
-    desc: "Establish a foundation in Backend development and APIs",
+    title: "Spring and Spring Boot Basics",
+    desc: "Learn the fundamentals of backend development and API creation with Spring.",
   },
   {
-    title: "Advanced Spring and Implementation",
-    desc: "Build impressive Spring-based capstone projects to boost your profile.",
+    title: "Advanced Spring Development",
+    desc: "Master Spring framework through hands-on projects and implementations.",
   },
   {
-    title: "Intro to HTML, CSS and JavaScript",
-    desc: "Client-side programming and Integration with backend to build a full-stack web application.",
+    title: "HTML, CSS, and JavaScript Fundamentals",
+    desc: "Gain proficiency in client-side programming and frontend technologies.",
   },
   {
-    title: "Project Building",
-    desc: "Build 2 full-stack projects using frontend technologies and springboot alongwith learning core computer science subjects like Operating System, Computer Networks, System Design, etc.",
+    title: "Full-Stack Web Development Projects",
+    desc: "Build full-stack web applications integrating frontend and backend technologies.",
   },
   {
-    title: "Advanced DSA",
-    desc: "Dynamic Programming, Backtracking followed by a revision.",
+    title: "Advanced Data Structures and Algorithms II",
+    desc: "Explore dynamic programming, backtracking, and revise key concepts.",
   },
 ];
+
 
 export const PricingData = [
   {
@@ -195,51 +196,51 @@ export const PricingData = [
     installments: [
       {
         package1: "3-5 LPA",
-        installment1: "₹ 1,80,000",
+        installment1: "₹ 1.2 lakh",
       },
       {
         package1: "5-10 LPA",
-        installment1: "₹ 2,40,000",
+        installment1: "₹ 3 lakh",
       },
       {
         package1: "10-15 LPA",
-        installment1: "₹ 3,00,000",
+        installment1: "₹ 30% of CTC",
       },
       {
         package1: "20+ LPA",
-        installment1: "₹ 4,00,000",
+        installment1: "₹ 30% of CTC",
       },
     ],
     notice:
       "Placement services will have to start immediately after course completion",
   },
-  {
-    title: "Pay Tuition Fee",
-    desc: "Pay a minimal Tuition fees in monthly instalments and pay remaining fee after placement.",
-    price: "₹ 6250/month",
-    pricedesc: "In up to 12 month, Total ₹ 75000",
-    payrest: "Pay rest after your Placement in upto 12 months installments",
-    installments: [
-      {
-        package1: "3-5 LPA",
-        installment1: "40,000",
-      },
-      {
-        package1: "5-10 LPA",
-        installment1: "₹ 60,000",
-      },
-      {
-        package1: "10-15 LPA",
-        installment1: "₹ 1,00,000",
-      },
-      {
-        package1: "20+ LPA",
-        installment1: "₹ 1,50,000",
-      },
-    ],
-    notice:
-      "Placement Services can be availed anytime up to 3 years from Course Completion.",
-  },
+  // {
+  //   title: "Pay Tuition Fee",
+  //   desc: "Pay a minimal Tuition fees in monthly instalments and pay remaining fee after placement.",
+  //   price: "₹ 6250/month",
+  //   pricedesc: "In up to 12 month, Total ₹ 75000",
+  //   payrest: "Pay rest after your Placement in upto 12 months installments",
+  //   installments: [
+  //     {
+  //       package1: "3-5 LPA",
+  //       installment1: "40,000",
+  //     },
+  //     {
+  //       package1: "5-10 LPA",
+  //       installment1: "₹ 60,000",
+  //     },
+  //     {
+  //       package1: "10-15 LPA",
+  //       installment1: "₹ 1,00,000",
+  //     },
+  //     {
+  //       package1: "20+ LPA",
+  //       installment1: "₹ 1,50,000",
+  //     },
+  //   ],
+  //   notice:
+  //     "Placement Services can be availed anytime up to 3 years from Course Completion.",
+  // },
 ];
 
 export const StudentDetailsData = [
@@ -337,28 +338,28 @@ export const StudentDetailsData = [
 
 export const powerData = [
   {
-    innerdiv1: "In Demand Skill",
+    innerdiv1: "High Employability",
     innerdiv2:
-      "Full-stack Development's robustness and scalability make it ideal for handling complex and large-scale applications. By studying Full-stack Development, you'll be equipped to build efficient, reliable, and high-performance systems capable of handling substantial user loads.",
+      "Full-stack Development skills are highly sought after by employers across various industries. Mastering Full-stack Development opens doors to a wide range of job opportunities.",
   },
   {
-    innerdiv1: "Robust and Scalable Solution",
+    innerdiv1: "Adaptability",
     innerdiv2:
-      "Full-stack Development's robustness and scalability make it ideal for handling complex and large-scale applications. By studying Full-stack Development , you'll be equipped to build efficiem, reliable, and high-performance systems capable of handling substantial user laads.",
+      "The versatility of Full-stack Development allows you to adapt to different project requirements and technologies, making you a valuable asset to any team.",
   },
   {
-    innerdiv1: "Versatility",
+    innerdiv1: "Creativity",
     innerdiv2:
-      "Full-stack Development is not limited to a single domain. It can be used to develop a wide range of applications, from web development to enterprise solutions and even Android mobile applications.",
+      "Full-stack Development encourages creativity in problem-solving and designing user-friendly interfaces, empowering you to bring innovative solutions to life.",
   },
   {
-    innerdiv1: "Industry Giants uses this.",
+    innerdiv1: "Global Collaboration",
     innerdiv2:
-      "Many renowned companies, including tech giants like Google, Amazon, and Netflix, rely on Full-stack Development for their backend infrastructure. Studying Full-stack Development means you'll be aligning yourself with industry best practices and standards.",
+      "In a digitally connected world, Full-stack Development skills enable you to collaborate with diverse teams and clients worldwide, fostering global connections.",
   },
   {
-    innerdiv1: "Future proof technology",
+    innerdiv1: "Continuous Learning",
     innerdiv2:
-      "Full-stack Development has stood the best of time and is continually evolving. With regular updates and advancements, studying Full-stack Development guarantees that you are investing in a future-proof skillset.",
+      "Full-stack Development is a field that constantly evolves with new technologies and trends. Embracing Full-stack Development means committing to lifelong learning and growth.",
   },
 ];

@@ -7,15 +7,13 @@ export default function BrochureFeature() {
   return (
     <section className="brouchersection" id="brochure-page5">
       <div className="text-center">
-         <h1 className='brochureheaderheading1'>Features</h1>
+        <h1 className="brochureheaderheading1">Features</h1>
       </div>
 
       <div className="row featuresrow">
-        {
-          featureData.map((feature)=>(
-              <FeatureCard feature = {feature}/>
-          ))
-        }
+        {featureData.map((feature) => (
+          <FeatureCard feature={feature} />
+        ))}
       </div>
 
       <div className="portal">
@@ -23,12 +21,13 @@ export default function BrochureFeature() {
           <div className="portal-left">
             <p className="portalheading1">OUR PORTAL</p>
             <p className="portalheading2">
-              Experience Techmentor-core's Learning Portal through a Quick Video Tour
+              Get a glimpse into Techmentor-Core's Learning Portal with a Quick
+              Video Tour!
             </p>
             <p className="portalheading3">
-              Leaderboard, Job Sincerity, Modules, Gym, Live Doubts, Contests,
-              Mentorship Sessions, Job Portal, Notes, Open Editor, Projects
-              &amp; many more such features for you to check out!
+              Explore our extensive array of features including Leaderboard, Job
+              Sincerity, Modules, Gym, Live Doubts, Contests, Mentorship
+              Sessions, Job Portal, Notes, Open Editor, Projects, and many more!
             </p>
           </div>
           <div className="portal-right">
