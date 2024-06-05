@@ -27,7 +27,7 @@ export default function Pricing() {
               marginTop: "30px",
             }}
           >
-             <div className="col-lg-4 col-6">
+             <div className="col-lg-4 col-8">
               <div className="card mb-5 mb-lg-0">
                 <div className="card-body">
                   <h5 className="card-title text-muted text-uppercase text-center">
@@ -43,7 +43,7 @@ export default function Pricing() {
                 </div>
               </div>
             </div>
-            
+
             {PricingData.map((e, i) => {
               return <PricingCard cardData={e} key={i} />;
             })}

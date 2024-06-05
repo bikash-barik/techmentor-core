@@ -87,7 +87,8 @@
     }
 
     .pricing ul li p{
-        font-size: 0.7rem;
+        text-align: center;
+        font-size: 1rem;
     }
 
     .pricing .card-price1 {

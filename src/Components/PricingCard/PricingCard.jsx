@@ -2,7 +2,7 @@ import './PricingCard.css'
 
 export default function PricingCard(props) {
   return (
-<div className="col-lg-4 col-6">
+<div className="col-lg-4 col-10">
   <div className="card mb-5 mb-lg-0">
     <div className="card-body">
       <h5 className="card-title text-muted text-uppercase text-center">{props.cardData.title}</h5>
