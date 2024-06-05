@@ -6,7 +6,7 @@ export default function Time() {
       <section className="timesection" id="brochure-page3">
         <div className="timediv">
           <h1 className="brochureheaderheading1">
-            Why you should invest <br /> your time?
+            Why should you invest <br /> your time?
           </h1>
         </div>
 
