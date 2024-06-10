@@ -47,7 +47,7 @@ export default function FloatingButton() {
 
             <div className="callMenu">
               <div className="callMenulinkdiv">
-                <a href="tel:+917008428565">
+                <a href="tel:+916371083736">
                   <MdAddCall className="callMenuIcon" />
                   <p>Call Us</p>
                 </a>

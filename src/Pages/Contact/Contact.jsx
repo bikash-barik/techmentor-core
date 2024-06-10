@@ -29,7 +29,7 @@ export default function Contact() {
                         </div>
                         <div className="ms-3">
                             <h5 className="primarycolor">Mobile</h5>
-                            <p className="mb-0">+91 7008428565</p>
+                            <p className="mb-0">+91 6371083736</p>
                         </div>
                     </div>
                     <div className="d-flex align-items-center">
