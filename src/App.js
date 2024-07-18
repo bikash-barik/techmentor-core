@@ -18,6 +18,7 @@ import Brochure from './Pages/Brochure/Brochure';
 import Login from './Pages/Login/Login';
 import Register from './Pages/Register/Register';
 import Upload from './Pages/Upload/Upload'
+import CompanyPage from './Pages/company/CompanyPage';
 function App() {
   useEffect(() => {
     AOS.init();
@@ -38,6 +39,7 @@ function App() {
           <Route path='/payonline' element={<PayOnline/>}/>
           <Route path='/contact' element={<Contact/>}/>
           <Route path='/terms-and-conditions' element={<TermsAndConditions/>}/>
+          <Route path='/company-page' element={<CompanyPage/>}/>
         </Routes>
         <Footer/>
         <FloatingButton/>
