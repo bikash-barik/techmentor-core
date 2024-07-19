@@ -12,6 +12,7 @@ const CompanyPage = () => {
         <div className="">
           <div className=" other">
             <img
+            data-aos="flip-right"
               src={Img1}
               className="img1"
               alt="IntroductionImage"
@@ -148,7 +149,7 @@ const CompanyPage = () => {
         <h2 class="text-center my-4">Our Team</h2>
         <div class="row">
           <div class="col-md-4 mb-4">
-            <div class="card">
+            <div  data-aos="fade-right" class="card">
               <img src={Img2} alt="Jane" class="card-img-top" />
               <div class="card-body">
                 <h4 class="card-title">Jane Doe</h4>
@@ -164,7 +165,7 @@ const CompanyPage = () => {
             </div>
           </div>
           <div class="col-md-4 mb-4">
-            <div class="card">
+            <div  data-aos="fade-left" class="card">
               <img src={Img3} alt="Mike" class="card-img-top" />
               <div class="card-body">
                 <h4 class="card-title">Mike Ross</h4>
@@ -180,7 +181,7 @@ const CompanyPage = () => {
             </div>
           </div>
           <div class="col-md-4 mb-4">
-            <div class="card">
+            <div  data-aos="fade-right" class="card">
               <img src={Img4} alt="John" class="card-img-top" />
               <div class="card-body">
                 <h4 class="card-title">John Doe</h4>
