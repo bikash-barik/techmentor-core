@@ -71,7 +71,7 @@ li {
     flex-direction: column;
   }
   .datass{
-    flex-direction: column-reverse;
+    flex-direction: column;
   }
   .mission-dev {
     display: flex;

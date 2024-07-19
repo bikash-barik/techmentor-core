@@ -81,7 +81,6 @@ const CompanyPage = () => {
           <div className="datas">
             <img
               src={Img2}
-              data-aos="flip-left"
               loading={lazy}
               className="img1"
               alt="IntroductionImage"
@@ -110,7 +109,6 @@ const CompanyPage = () => {
           <div className="datass">
             <img
               src={Img3}
-              data-aos="flip-right"
               loading={lazy}
               className="img1"
               alt="IntroductionImage"
@@ -144,7 +142,6 @@ const CompanyPage = () => {
           <div className="datas">
             <img
               src={Img4}
-              data-aos="flip-right"
               loading={lazy}
               className="img1"
               alt="IntroductionImage"
@@ -180,7 +177,7 @@ const CompanyPage = () => {
         <h2 class="text-center my-4">Our Team</h2>
         <div class="row">
           <div class="col-md-4 mb-4">
-            <div data-aos="fade-right" class="card">
+            <div  class="card">
               <div class="card-body">
                 <h4 class="card-title">Jane Doe</h4>
                 <p class="card-text text-muted">CEO & Founder</p>
@@ -195,7 +192,7 @@ const CompanyPage = () => {
             </div>
           </div>
           <div class="col-md-4 mb-4">
-            <div data-aos="fade-left" class="card">
+            <div  class="card">
               <div class="card-body">
                 <h4 class="card-title">Mike Ross</h4>
                 <p class="card-text text-muted">Art Director</p>
@@ -210,7 +207,7 @@ const CompanyPage = () => {
             </div>
           </div>
           <div class="col-md-4 mb-4">
-            <div data-aos="fade-right" class="card">
+            <div  class="card">
               <div class="card-body">
                 <h4 class="card-title">John Doe</h4>
                 <p class="card-text text-muted">Designer</p>
